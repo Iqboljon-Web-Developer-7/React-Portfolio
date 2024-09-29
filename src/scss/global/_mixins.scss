@@ -1,0 +1,9 @@
+@use "../global/colors" as *;
+
+@mixin headerLink() {
+  .header__links {
+    a.active {
+      color: $black;
+    }
+  }
+}
