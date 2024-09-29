@@ -21,7 +21,7 @@ const SimplyUnique = () => {
         </div>
         <div className="simple__info--right sm:w-2/4">
           <p className="font-light text-slate-500 text-sm lg:text-base">
-            <spane className="text-slate-900 font-semibold">3legant</spane> is a
+            <span className="text-slate-900 font-semibold">3legant</span> is a
             gift & decorations store based in HCMC, Vietnam. Est since 2019.{" "}
           </p>
         </div>

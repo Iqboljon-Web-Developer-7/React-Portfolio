@@ -4,165 +4,800 @@
       "title": "Tray Table",
       "description": "Buy one or buy a few and make every space where you sit more convenient. Light and easy to move around with removable tray top, handy for serving snacks.",
       "price": 199,
-      "originalPrice": 400,
+      "originalPrice": 300,
       "status": "New",
-      "expiryDate": "2024-09-24T12:45:05",
       "measurements": "17 1/2 × 20 5/8 inches",
-      "colors": ["Black", "Beige", "Red"],
+      "colors": [
+        { "name": "White", "color": "#FFFFFF" },
+        { "name": "Black", "color": "#000000" },
+        { "name": "Grey", "color": "#808080" }
+      ],
       "category": ["Living Room", "Bedroom"],
       "sku": "1117",
       "images": [
         {
+          "color": "White",
+          "qunatity": "5",
+          "images": [
+            "https://images.uzum.uz/cn7kl61s99ouqbfunrn0/original.jpg",
+            "https://images.uzum.uz/cn7kkvps99ouqbfunrm0/original.jpg",
+            "https://images.uzum.uz/cn7kl1925kub33f3u7r0/original.jpg",
+            "https://images.uzum.uz/cn7kl2jifoubkc6s5gh0/original.jpg"
+          ]
+        },
+        {
           "color": "Black",
-          "images": ["image1.png"]
+          "qunatity": "0",
+          "images": [
+            "https://images.uzum.uz/crp8oechug2lhico7trg/original.jpg",
+            "https://images.uzum.uz/crp8ohuvip07shn5usgg/original.jpg",
+            "https://images.uzum.uz/crp8ojmvip07shn5ush0/original.jpg",
+            "https://images.uzum.uz/crp8oa6vip07shn5usb0/original.jpg",
+            "https://images.uzum.uz/crp8ogevip07shn5usfg/original.jpg"
+          ]
         },
         {
-          "color": "Beige",
-          "images": ["image2.png"]
-        },
-        {
-          "color": "Red",
-          "images": ["image3.png"]
+          "color": "Grey",
+          "qunatity": "10",
+          "status": true,
+          "images": [
+            "https://images.uzum.uz/cqeepk4qvss6ad8j17n0/original.jpg",
+            "https://images.uzum.uz/cqeepk4qvss6ad8j17m0/original.jpg",
+            "https://images.uzum.uz/cqeepk4qvss6ad8j17ng/original.jpg",
+            "https://images.uzum.uz/cqeepk7frr885gh3026g/original.jpg",
+            "https://images.uzum.uz/cqeepk4qvss6ad8j17mg/original.jpg"
+          ]
         }
       ],
       "comments": [
         {
-          "user": "John Doe",
-          "profileImg": "https://randomuser.me/api/portraits/men/1.jpg",
-          "comment": "Great product! Exactly what I was looking for.",
+          "user": "Emily Johnson",
+          "profileImg": "https://randomuser.me/api/portraits/women/21.jpg",
+          "comment": "Absolutely love this product! The quality is fantastic.",
           "rating": 5
-        },
-        {
-          "user": "Jane Smith",
-          "profileImg": "https://randomuser.me/api/portraits/women/2.jpg",
-          "comment": "Looks perfect in my living room!",
-          "rating": 4
         },
         {
           "user": "Michael Brown",
-          "profileImg": "https://randomuser.me/api/portraits/men/3.jpg",
-          "comment": "Very sturdy and easy to assemble.",
-          "rating": 5
-        },
-        {
-          "user": "Susan Lee",
-          "profileImg": "https://randomuser.me/api/portraits/women/4.jpg",
-          "comment": "Good value for the price.",
+          "profileImg": "https://randomuser.me/api/portraits/men/32.jpg",
+          "comment": "Good value for the price, though I wish the delivery was faster.",
           "rating": 4
         },
         {
-          "user": "Alice Johnson",
-          "profileImg": "https://randomuser.me/api/portraits/women/5.jpg",
-          "comment": "Highly recommend for small spaces.",
+          "user": "Sophia Martinez",
+          "profileImg": "https://randomuser.me/api/portraits/women/43.jpg",
+          "comment": "Stylish and functional. Fits perfectly in my apartment!",
           "rating": 5
         },
         {
-          "user": "Mark Davis",
-          "profileImg": "https://randomuser.me/api/portraits/men/6.jpg",
-          "comment": "Love the removable tray feature.",
+          "user": "David Lee",
+          "profileImg": "https://randomuser.me/api/portraits/men/14.jpg",
+          "comment": "Decent product, but I had some issues with the assembly instructions.",
+          "rating": 3
+        },
+        {
+          "user": "Olivia White",
+          "profileImg": "https://randomuser.me/api/portraits/women/56.jpg",
+          "comment": "Amazing customer service! They answered all my questions.",
+          "rating": 5
+        },
+        {
+          "user": "Daniel Harris",
+          "profileImg": "https://randomuser.me/api/portraits/men/29.jpg",
+          "comment": "The product is okay, but it didn’t quite meet my expectations.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "title": "Galaxy S24 Ultra",
+      "description": "User privacy continues to be our priority in the AI era. With the launch of Galaxy AI on the Galaxy S24 Series, you can rest assured that we will not store or use your personal data for any purpose without your consent.",
+      "price": 1100,
+      "originalPrice": 1300,
+      "status": "New",
+      "measurements": "6.8 inches",
+      "colors": [
+        { "name": "Grey", "color": "#808080" },
+        { "name": "Violet", "color": "#EE82EE" },
+        { "name": "White", "color": "#FFFFFF" }
+      ],
+      "category": ["Living Room", "Bedroom"],
+      "sku": "1118",
+      "images": [
+        {
+          "color": "Grey",
+          "qunatity": "1",
+          "images": [
+            "https://images.uzum.uz/crncbvchug2lhicnqk0g/original.jpg",
+            "https://images.uzum.uz/crncbvajot51rkb2bchg/original.jpg",
+            "https://images.uzum.uz/crncbvevip07shn5hqfg/original.jpg"
+          ]
+        },
+        {
+          "color": "Violet",
+          "qunatity": "10",
+          "images": [
+            "https://images.uzum.uz/cpbing4crcfqljg12v3g/original.jpg",
+            "https://images.uzum.uz/cpbing4crcfqljg12v30/original.jpg",
+            "https://images.uzum.uz/cpbingbmdtjnp737g140/original.jpg",
+            "https://images.uzum.uz/cp2p6dvj2e4ghqnrgefg/original.jpg",
+            "https://images.uzum.uz/cp2p6dvj2e4ghqnrgee0/original.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "qunatity": "0",
+          "images": [
+            "https://images.uzum.uz/crncbrshug2lhicnqjsg/original.jpg",
+            "https://images.uzum.uz/crncbrqjot51rkb2bcfg/original.jpg",
+            "https://images.uzum.uz/crncbrshug2lhicnqjt0/original.jpg"
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "user": "Rachel Adams",
+          "profileImg": "https://randomuser.me/api/portraits/women/65.jpg",
+          "comment": "Exceeded my expectations! The design is beautiful and elegant.",
+          "rating": 5
+        },
+        {
+          "user": "James Wilson",
+          "profileImg": "https://randomuser.me/api/portraits/men/42.jpg",
+          "comment": "Solid build quality, but the color wasn’t exactly what I expected.",
           "rating": 4
         },
         {
-          "user": "Emily White",
-          "profileImg": "https://randomuser.me/api/portraits/women/7.jpg",
-          "comment": "Beautiful design and quality.",
+          "user": "Mia Thompson",
+          "profileImg": "https://randomuser.me/api/portraits/women/38.jpg",
+          "comment": "Very easy to assemble. Took me less than 15 minutes!",
           "rating": 5
         },
         {
-          "user": "David Harris",
-          "profileImg": "https://randomuser.me/api/portraits/men/8.jpg",
-          "comment": "Perfect size for my space.",
+          "user": "Ethan Walker",
+          "profileImg": "https://randomuser.me/api/portraits/men/53.jpg",
+          "comment": "Nice product, but I think it’s a bit overpriced for what it offers.",
+          "rating": 3
+        },
+        {
+          "user": "Chloe Parker",
+          "profileImg": "https://randomuser.me/api/portraits/women/76.jpg",
+          "comment": "Perfect addition to my home! The size is just right for small spaces.",
           "rating": 5
         },
         {
-          "user": "Sophie Brown",
-          "profileImg": "https://randomuser.me/api/portraits/women/9.jpg",
-          "comment": "Nice color options, very stylish.",
+          "user": "Jack Cooper",
+          "profileImg": "https://randomuser.me/api/portraits/men/24.jpg",
+          "comment": "It’s okay, but I had higher expectations. The finish isn’t as polished as I hoped.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "title": "MacBook Air 13",
+      "description": "Noutbuk Apple MacBook Air 13 M1 8GB/256GB, Gray",
+      "price": 800,
+      "originalPrice": 999,
+      "status": "New",
+      "measurements": "17 1/2 × 20 5/8 inches",
+      "colors": [{ "name": "Grey", "color": "#808080" }],
+      "category": ["Living Room", "Bedroom"],
+      "sku": "1117",
+      "images": [
+        {
+          "color": "Grey",
+          "qunatity": "80",
+          "images": [
+            "https://images.uzum.uz/cqcv3ikqvss6ad8ilu10/original.jpg",
+            "https://images.uzum.uz/cqcv3ikqvss6ad8ilu10/original.jpg",
+            "https://images.uzum.uz/cqcv3kksslotj05l4520/original.jpg"
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "user": "Lily Evans",
+          "profileImg": "https://randomuser.me/api/portraits/women/23.jpg",
+          "comment": "Fantastic product! It fits perfectly in my workspace and looks great.",
+          "rating": 5
+        },
+        {
+          "user": "Ryan Scott",
+          "profileImg": "https://randomuser.me/api/portraits/men/44.jpg",
+          "comment": "The delivery was quick, but I had a small scratch on the surface.",
+          "rating": 3
+        },
+        {
+          "user": "Grace King",
+          "profileImg": "https://randomuser.me/api/portraits/women/17.jpg",
+          "comment": "Very sturdy and modern looking. Love the color options available.",
           "rating": 4
         },
         {
-          "user": "Lucas Martinez",
-          "profileImg": "https://randomuser.me/api/portraits/men/10.jpg",
-          "comment": "Fast shipping, arrived in perfect condition.",
+          "user": "Noah Taylor",
+          "profileImg": "https://randomuser.me/api/portraits/men/27.jpg",
+          "comment": "Overall, I’m happy with the product, but the assembly took longer than expected.",
+          "rating": 4
+        },
+        {
+          "user": "Ella Brooks",
+          "profileImg": "https://randomuser.me/api/portraits/women/33.jpg",
+          "comment": "Super stylish! The product is well-made and worth the price.",
           "rating": 5
         },
         {
-          "user": "Jessica Green",
-          "profileImg": "https://randomuser.me/api/portraits/women/11.jpg",
-          "comment": "Would definitely buy again!",
+          "user": "Liam Green",
+          "profileImg": "https://randomuser.me/api/portraits/men/59.jpg",
+          "comment": "The material is good, but I wish there were more color choices.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "title": "Galaxy A15",
+      "description": "Smartfon Samsung Galaxy A15, 6GB / 128GB, 6.5 Super AMOLED 90 Hz, Dual nano SIM",
+      "price": 210,
+      "originalPrice": 240,
+      "status": "New",
+      "measurements": "6.6 inches",
+      "colors": [
+        { "name": "Ice", "color": "#F0F8FF" },
+        { "name": "Blue", "color": "#0000FF" },
+        { "name": "DarkBlue", "color": "#00008B" }
+      ],
+      "category": ["Living Room", "Bedroom"],
+      "sku": "1117",
+      "images": [
+        {
+          "color": "Ice",
+          "qunatity": "80",
+          "images": [
+            "https://images.uzum.uz/crla0majot51rkb1qlt0/original.jpg",
+            "https://images.uzum.uz/crla0majot51rkb1qlsg/original.jpg",
+            "https://images.uzum.uz/crla0majot51rkb1qls0/original.jpg",
+            "https://images.uzum.uz/crla0mchug2lhicnaa80/original.jpg",
+            "https://images.uzum.uz/crla0m1bjcvd8a778teg/original.jpg"
+          ]
+        },
+        {
+          "color": "Blue",
+          "qunatity": "100",
+          "images": [
+            "https://images.uzum.uz/crla1ashug2lhicnaao0/original.jpg",
+            "https://images.uzum.uz/crla1apbjcvd8a778u10/original.jpg",
+            "https://images.uzum.uz/crla1ashug2lhicnaan0/original.jpg",
+            "https://images.uzum.uz/crla1ashug2lhicnaang/original.jpg",
+            "https://images.uzum.uz/crla1aqjot51rkb1qmcg/original.jpg"
+          ]
+        },
+        {
+          "color": "DarkBlue",
+          "qunatity": "20",
+          "images": [
+            "https://images.uzum.uz/crla00hbjcvd8a778t6g/original.jpg",
+            "https://images.uzum.uz/crla00hbjcvd8a778t5g/original.jpg",
+            "https://images.uzum.uz/crla00hbjcvd8a778t50/original.jpg",
+            "https://images.uzum.uz/crla00hbjcvd8a778t60/original.jpg",
+            "https://images.uzum.uz/crla00ijot51rkb1qlj0/original.jpg"
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "user": "Sophia Bennett",
+          "profileImg": "https://randomuser.me/api/portraits/women/22.jpg",
+          "comment": "Great value for the money. The product is even better than I expected!",
+          "rating": 5
+        },
+        {
+          "user": "Daniel Morgan",
+          "profileImg": "https://randomuser.me/api/portraits/men/35.jpg",
+          "comment": "Looks good, but the packaging could have been more secure.",
+          "rating": 3
+        },
+        {
+          "user": "Olivia Turner",
+          "profileImg": "https://randomuser.me/api/portraits/women/41.jpg",
+          "comment": "Love the minimalist design! It fits so well with my décor.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Miller",
+          "profileImg": "https://randomuser.me/api/portraits/men/18.jpg",
+          "comment": "Solid quality, but assembly instructions were a bit unclear.",
+          "rating": 4
+        },
+        {
+          "user": "Isabella Martinez",
+          "profileImg": "https://randomuser.me/api/portraits/women/55.jpg",
+          "comment": "Super happy with my purchase! It's exactly as described and fits perfectly.",
+          "rating": 5
+        },
+        {
+          "user": "Mason Clark",
+          "profileImg": "https://randomuser.me/api/portraits/men/11.jpg",
+          "comment": "The product is okay, but I feel it could be more durable.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "title": "toster Sonifer",
+      "description": "The 2-Slice Toaster combines sleek design with exceptional performance, making it a must-have for your kitchen. With adjustable browning controls and wide slots, it accommodates everything from thin slices of bread to thick bagels, ensuring your toast comes out exactly the way you like it.",
+      "price": 50,
+      "originalPrice": 40,
+      "status": "New",
+      "measurements": "4X4 inches",
+      "colors": [{ "name": "White", "color": "#FFFFFF" }],
+      "category": ["Living Room", "Bedroom"],
+      "sku": "1117",
+      "images": [
+        {
+          "color": "White",
+          "qunatity": "200",
+          "images": [
+            "https://images.uzum.uz/ck4kci3k9fq8tdq5bnv0/original.jpg",
+            "https://images.uzum.uz/ck4kcksjvf2qegt43la0/original.jpg",
+            "https://images.uzum.uz/ckfqfrjk9fq8lb3aabg0/original.jpg",
+            "https://images.uzum.uz/ckfqft3k9fq8lb3aabh0/original.jpg"
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "user": "Ava Williams",
+          "profileImg": "https://randomuser.me/api/portraits/women/30.jpg",
+          "comment": "This toaster works great! My toast is always evenly browned. Couldn’t be happier!",
+          "rating": 5
+        },
+        {
+          "user": "James Robinson",
+          "profileImg": "https://randomuser.me/api/portraits/men/22.jpg",
+          "comment": "The wide slots are perfect for my thick bagels. A very reliable toaster.",
+          "rating": 4
+        },
+        {
+          "user": "Mia Thompson",
+          "profileImg": "https://randomuser.me/api/portraits/women/27.jpg",
+          "comment": "I love the defrost feature! It's super convenient for busy mornings.",
+          "rating": 5
+        },
+        {
+          "user": "Liam Walker",
+          "profileImg": "https://randomuser.me/api/portraits/men/33.jpg",
+          "comment": "Simple design, easy to use, and quick to toast. Great for the price!",
+          "rating": 4
+        },
+        {
+          "user": "Ella Baker",
+          "profileImg": "https://randomuser.me/api/portraits/women/40.jpg",
+          "comment": "The removable crumb tray makes cleanup so easy! I highly recommend this toaster.",
+          "rating": 5
+        },
+        {
+          "user": "Noah Carter",
+          "profileImg": "https://randomuser.me/api/portraits/men/29.jpg",
+          "comment": "It does the job, but I wish it had more toast settings for precision.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "title": "Sovutgich Artel",
+      "description": "Transform your kitchen with our Stainless Steel French Door Refrigerator, designed to enhance both functionality and style. With its spacious layout and modern features, this refrigerator provides the ultimate storage solution for all your groceries.",
+      "price": 500,
+      "originalPrice": 400,
+      "status": "New",
+      "measurements": "10X5 inches",
+      "colors": [
+        { "name": "White", "color": "#FFFFFF" },
+        { "name": "Silver", "color": "#C0C0C0" },
+        { "name": "Black", "color": "#000000" }
+      ],
+      "category": ["Living Room", "Bedroom"],
+      "sku": "1117",
+      "images": [
+        {
+          "color": "White",
+          "qunatity": "100",
+          "images": [
+            "https://images.uzum.uz/ck4kci3k9fq8tdq5bnv0/original.jpg",
+            "https://images.uzum.uz/cnkl5r84idugcqeghgq0/original.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "qunatity": "10",
+          "images": [
+            "https://images.uzum.uz/cnkl4k5bl7rtgkb9a1kg/original.jpg",
+            "https://images.uzum.uz/cnkl4t04idugcqeghggg/original.jpg"
+          ]
+        },
+        {
+          "color": "Silver",
+          "qunatity": "50",
+          "images": [
+            "https://images.uzum.uz/crkie0k3t0q1s5n3ukt0/original.jpg",
+            "https://images.uzum.uz/cp2d2hvfrr80f2glbodg/original.jpg"
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "user": "Sophia Turner",
+          "profileImg": "https://randomuser.me/api/portraits/women/41.jpg",
+          "comment": "This fridge has so much space! I can finally organize my groceries without any hassle.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Reed",
+          "profileImg": "https://randomuser.me/api/portraits/men/42.jpg",
+          "comment": "The ice maker works like a charm. I love having cold drinks on hand!",
+          "rating": 4
+        },
+        {
+          "user": "Isabella Clark",
+          "profileImg": "https://randomuser.me/api/portraits/women/43.jpg",
+          "comment": "Very stylish and fits perfectly in my kitchen. The LED lights are a nice touch!",
+          "rating": 5
+        },
+        {
+          "user": "Aiden Hill",
+          "profileImg": "https://randomuser.me/api/portraits/men/44.jpg",
+          "comment": "Works well but I wish the shelves were a bit sturdier. Overall, a good buy!",
+          "rating": 3
+        },
+        {
+          "user": "Olivia Scott",
+          "profileImg": "https://randomuser.me/api/portraits/women/45.jpg",
+          "comment": "I appreciate the humidity-controlled drawers. My veggies last much longer now!",
+          "rating": 5
+        },
+        {
+          "user": "Mason Young",
+          "profileImg": "https://randomuser.me/api/portraits/men/46.jpg",
+          "comment": "Decent fridge but the water dispenser could be more powerful.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "title": "Note 13 Pro",
+      "description": "Smartfon Xiaomi Redmi Note 13 Pro, 8/256 GB, 12/512 GB, 6.67, 120 H, AMOLED, 5000 mA/soat",
+      "price": 230,
+      "originalPrice": 250,
+      "status": "New",
+      "measurements": "10X5 inches",
+      "colors": [
+        { "name": "Siren", "color": "#C8102E" },
+        { "name": "Dark Turquoise", "color": "#007C92" },
+        { "name": "Black", "color": "#000000" }
+      ],
+      "category": ["Living Room", "Bedroom"],
+      "sku": "1117",
+      "images": [
+        {
+          "color": "Siren",
+          "qunatity": "100",
+          "images": [
+            "https://images.uzum.uz/cphd5gjmdtjnp738n8u0/original.jpg",
+            "https://images.uzum.uz/co36v9epom4ma10re8pg/original.jpg",
+            "https://images.uzum.uz/co36v95lqsilsr3ldpog/original.jpg",
+            "https://images.uzum.uz/co36v9f2u18gghcm3ld0/original.jpg",
+            "https://images.uzum.uz/cmfuu61s99ouqbfqahkg/original.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "qunatity": "10",
+          "images": [
+            "https://images.uzum.uz/cphd5a7frr82f0a5q1kg/original.jpg",
+            "https://images.uzum.uz/cpjbe77frr82f0a67l6g/original.jpg",
+            "https://images.uzum.uz/cpjbe73mdtjnp7394rg0/original.jpg",
+            "https://images.uzum.uz/co36v1n2u18gghcm3l9g/original.jpg"
+          ]
+        },
+        {
+          "color": "Dark Turquoise",
+          "qunatity": "40",
+          "images": [
+            "https://images.uzum.uz/cphd5bffrr82f0a5q1l0/original.jpg",
+            "https://images.uzum.uz/co36vgdlqsilsr3ldprg/original.jpg",
+            "https://images.uzum.uz/co36vgf2u18gghcm3lf0/original.jpg",
+            "https://images.uzum.uz/co36vgepom4ma10re8s0/original.jpg"
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "user": "Aiden Lee",
+          "profileImg": "https://randomuser.me/api/portraits/men/61.jpg",
+          "comment": "The performance on the Note 13 Pro is next-level! Handles everything I throw at it.",
+          "rating": 5
+        },
+        {
+          "user": "Mia Chen",
+          "profileImg": "https://randomuser.me/api/portraits/women/62.jpg",
+          "comment": "Absolutely love the design! It feels premium and looks stunning.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Garcia",
+          "profileImg": "https://randomuser.me/api/portraits/men/63.jpg",
+          "comment": "The battery life is impressive! I can go two days without charging.",
+          "rating": 4
+        },
+        {
+          "user": "Zoe Wilson",
+          "profileImg": "https://randomuser.me/api/portraits/women/64.jpg",
+          "comment": "The camera quality is phenomenal, especially in low light. Highly recommend!",
+          "rating": 5
+        },
+        {
+          "user": "Lucas Scott",
+          "profileImg": "https://randomuser.me/api/portraits/men/65.jpg",
+          "comment": "I was expecting more customization options in the software. Still a solid phone!",
+          "rating": 4
+        },
+        {
+          "user": "Ella Young",
+          "profileImg": "https://randomuser.me/api/portraits/women/66.jpg",
+          "comment": "The Note 13 Pro has made my life so much easier with its multitasking capabilities!",
           "rating": 5
         }
       ]
     },
     {
-      "title": "Side Table",
-      "description": "Compact and stylish side table, perfect for any living room or bedroom. Sturdy and light with a unique design that adds a modern touch to any space.",
-      "price": 150,
-      "originalPrice": 300,
+      "title": "IPhone 15 Pro/Promax",
+      "description": "Introducing the iPhone 15 Pro Max, the ultimate smartphone designed for those who demand the very best. Featuring a brilliant 6.7-inch Super Retina XDR display with ProMotion technology, enjoy smooth scrolling and breathtaking visuals that bring your content to life in stunning detail.",
+      "price": 1200,
+      "originalPrice": 1300,
       "status": "New",
-      "expiryDate": "2024-09-23T05:30:00",
-      "measurements": "16 × 18 inches",
-      "colors": ["Black", "White"],
+      "measurements": "6.7/6.5 inches",
+      "colors": [
+        { "name": "White", "color": "#FFFFFF" },
+        { "name": "Black", "color": "#000000" },
+        { "name": "Titan Grey", "color": "#A7A8AA" },
+        { "name": "Dark Blue", "color": "#002D72" }
+      ],
       "category": ["Living Room", "Bedroom"],
-      "sku": "1118",
+      "sku": "1117",
       "images": [
         {
-          "color": "Black",
-          "images": ["side_table_image1.png"]
+          "color": "White",
+          "qunatity": "30",
+          "images": [
+            "https://images.uzum.uz/cnhjeio4idugcqefu400/original.jpg",
+            "https://images.uzum.uz/cnhjeidbl7rtgkb8mr00/original.jpg",
+            "https://images.uzum.uz/cnhjei84idugcqefu3vg/original.jpg"
+          ]
         },
         {
-          "color": "White",
-          "images": ["side_table_image2.png"]
+          "color": "Black",
+          "qunatity": "10",
+          "images": [
+            "https://images.uzum.uz/cnhjhudbl7rtgkb8mrlg/original.jpg",
+            "https://images.uzum.uz/cnhjhu5bl7rtgkb8mrl0/original.jpg",
+            "https://images.uzum.uz/cnhjhulbl7rtgkb8mrm0/original.jpg"
+          ]
+        },
+        {
+          "color": "Titan Grey",
+          "qunatity": "42",
+          "images": [
+            "https://images.uzum.uz/cppdqv8sarnfdo98i6jg/original.jpg",
+            "https://images.uzum.uz/cnhjftku2hhlb05gcnj0/original.jpg",
+            "https://images.uzum.uz/cnhjft5bl7rtgkb8mr9g/original.jpg",
+            "https://images.uzum.uz/cnhjft5bl7rtgkb8mr90/original.jpg"
+          ]
+        },
+        {
+          "color": "Dark Blue",
+          "qunatity": "40",
+          "images": [
+            "https://images.uzum.uz/cnhjdh4u2hhlb05gcmv0/original.jpg",
+            "https://images.uzum.uz/cnhjdgsu2hhlb05gcmug/original.jpg",
+            "https://images.uzum.uz/cnhjdh5bl7rtgkb8mqjg/original.jpg"
+          ]
         }
       ],
       "comments": [
         {
-          "user": "Sarah Lee",
-          "profileImg": "https://randomuser.me/api/portraits/women/12.jpg",
-          "comment": "The table fits perfectly in my small space.",
+          "user": "Aiden Lee",
+          "profileImg": "https://randomuser.me/api/portraits/men/61.jpg",
+          "comment": "The iPhone 15 Pro Max is a beast! The A17 chip makes everything run so smoothly.",
           "rating": 5
         },
         {
-          "user": "Tom Clark",
-          "profileImg": "https://randomuser.me/api/portraits/men/13.jpg",
-          "comment": "Very lightweight, easy to move around.",
+          "user": "Mia Chen",
+          "profileImg": "https://randomuser.me/api/portraits/women/62.jpg",
+          "comment": "I’m in love with the new design! It feels lightweight and the titanium finish is stunning.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Garcia",
+          "profileImg": "https://randomuser.me/api/portraits/men/63.jpg",
+          "comment": "Battery life is solid. I can go nearly two days without needing to charge it.",
           "rating": 4
         },
         {
-          "user": "Nina Parker",
-          "profileImg": "https://randomuser.me/api/portraits/women/14.jpg",
-          "comment": "Looks exactly as pictured.",
+          "user": "Zoe Wilson",
+          "profileImg": "https://randomuser.me/api/portraits/women/64.jpg",
+          "comment": "The camera quality on this phone is insane! Night mode and 4K videos are top-notch.",
           "rating": 5
         },
         {
-          "user": "George Wright",
-          "profileImg": "https://randomuser.me/api/portraits/men/15.jpg",
-          "comment": "Great quality for the price.",
+          "user": "Lucas Scott",
+          "profileImg": "https://randomuser.me/api/portraits/men/65.jpg",
+          "comment": "It’s a great phone, but I wish there were more customization options in iOS.",
           "rating": 4
         },
         {
-          "user": "Amy Davis",
-          "profileImg": "https://randomuser.me/api/portraits/women/16.jpg",
-          "comment": "Easy to assemble, took me only 10 minutes.",
+          "user": "Ella Young",
+          "profileImg": "https://randomuser.me/api/portraits/women/66.jpg",
+          "comment": "Multitasking on the iPhone 15 Pro Max is super smooth, and the display is gorgeous!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "title": "Microvawe pech",
+      "description": "The microwave oven is an essential appliance for any modern kitchen, offering quick and efficient heating, cooking, or defrosting options. With a spacious interior and multiple preset programs, it makes preparing a variety of dishes easy and convenient. The intuitive electronic control panel and adjustable power levels provide precise cooking control. Its sleek design complements any kitchen decor, while safety features like automatic shut-off and child safety lock ensure reliable and secure operation.",
+      "price": 60,
+      "originalPrice": 70,
+      "status": "New",
+      "measurements": "4x5 inches",
+      "colors": [
+        { "name": "White", "color": "#FFFFFF" },
+        { "name": "Qora", "color": "#000000" }
+      ],
+      "category": ["Living Room", "Bedroom"],
+      "sku": "1117",
+      "images": [
+        {
+          "color": "White",
+          "qunatity": "11",
+          "images": [
+            "https://images.uzum.uz/cq5irmr5qt1gj8deg4pg/original.jpg",
+            "https://images.uzum.uz/cq5iroj5qt1gj8deg4q0/original.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "qunatity": "24",
+          "images": [
+            "https://images.uzum.uz/cq5irkj5qt1gj8deg4p0/original.jpg",
+            "https://images.uzum.uz/cq5irkgsarnfdo9arr0g/original.jpg"
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "user": "James O'Connor",
+          "profileImg": "https://randomuser.me/api/portraits/men/31.jpg",
+          "comment": "The Redmi 14C offers great performance for the price. Super smooth experience!",
           "rating": 5
         },
         {
-          "user": "Chris Evans",
-          "profileImg": "https://randomuser.me/api/portraits/men/17.jpg",
-          "comment": "Very modern design, adds a nice touch to my room.",
-          "rating": 5
-        },
-        {
-          "user": "Rachel Moore",
-          "profileImg": "https://randomuser.me/api/portraits/women/18.jpg",
-          "comment": "Highly recommend for anyone looking for a small table.",
-          "rating": 5
-        },
-        {
-          "user": "Kevin Harris",
-          "profileImg": "https://randomuser.me/api/portraits/men/19.jpg",
-          "comment": "The color looks great and matches my decor.",
+          "user": "Sophia Martinez",
+          "profileImg": "https://randomuser.me/api/portraits/women/32.jpg",
+          "comment": "Loving the large display. It's perfect for watching videos and browsing the web.",
           "rating": 4
+        },
+        {
+          "user": "Daniel Williams",
+          "profileImg": "https://randomuser.me/api/portraits/men/33.jpg",
+          "comment": "Battery life is amazing! Easily lasts me through a full day of heavy use.",
+          "rating": 5
+        },
+        {
+          "user": "Olivia Johnson",
+          "profileImg": "https://randomuser.me/api/portraits/women/34.jpg",
+          "comment": "The camera quality is decent, but it could be better in low-light conditions.",
+          "rating": 3
+        },
+        {
+          "user": "Lucas Brown",
+          "profileImg": "https://randomuser.me/api/portraits/men/35.jpg",
+          "comment": "Great budget phone with fast performance. Highly recommend for everyday use.",
+          "rating": 4
+        },
+        {
+          "user": "Emma Thompson",
+          "profileImg": "https://randomuser.me/api/portraits/women/36.jpg",
+          "comment": "Very sleek design, and the phone feels light in hand. Really happy with it.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "title": "Redmi 14C",
+      "description": "Xiaomi Redmi 14C smartfoni, 120Hz, 5160MAH, NFC, asosiy kamera 50 mp",
+      "price": 110,
+      "originalPrice": 160,
+      "status": "New",
+      "measurements": "6.7/6.5 inches",
+      "colors": [
+        { "name": "Green Xaki", "color": "#6B8E23" },
+        { "name": "Indigo", "color": "#4B0082" },
+        { "name": "Lavanda", "color": "#E6E6FA" },
+        { "name": "Qora", "color": "#000000" }
+      ],
+      "category": ["Living Room", "Bedroom"],
+      "sku": "1117",
+      "images": [
+        {
+          "color": "Green Xaki",
+          "qunatity": "900",
+          "images": [
+            "https://images.uzum.uz/crgiaac2gps3jqbg3oo0/original.jpg",
+            "https://images.uzum.uz/crgiaafs09cvvbjrfke0/original.jpg",
+            "https://images.uzum.uz/crgiaae0t1lqb8ar5v0g/original.jpg"
+          ]
+        },
+        {
+          "color": "Indigo",
+          "qunatity": "14",
+          "images": [
+            "https://images.uzum.uz/crgia660t1lqb8ar5uv0/original.jpg",
+            "https://images.uzum.uz/crgia642gps3jqbg3omg/original.jpg",
+            "https://images.uzum.uz/crgia67s09cvvbjrfkd0/original.jpg"
+          ]
+        },
+        {
+          "color": "Lavanda",
+          "qunatity": "42",
+          "images": [
+            "https://images.uzum.uz/crgia8ns09cvvbjrfkdg/original.jpg",
+            "https://images.uzum.uz/crgia8k2gps3jqbg3on0/original.jpg",
+            "https://images.uzum.uz/crgia8m0t1lqb8ar5v00/original.jpg"
+          ]
+        },
+        {
+          "color": "Dark Blue",
+          "qunatity": "40",
+          "images": [
+            "https://images.uzum.uz/crgiacvs09cvvbjrfkeg/original.jpg",
+            "https://images.uzum.uz/crgiacu0t1lqb8ar5v1g/original.jpg",
+            "https://images.uzum.uz/crgiacs2gps3jqbg3oog/original.jpg"
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "user": "James O'Connor",
+          "profileImg": "https://randomuser.me/api/portraits/men/31.jpg",
+          "comment": "The Redmi 14C offers great performance for the price. Super smooth experience!",
+          "rating": 5
+        },
+        {
+          "user": "Sophia Martinez",
+          "profileImg": "https://randomuser.me/api/portraits/women/32.jpg",
+          "comment": "Loving the large display. It's perfect for watching videos and browsing the web.",
+          "rating": 4
+        },
+        {
+          "user": "Daniel Williams",
+          "profileImg": "https://randomuser.me/api/portraits/men/33.jpg",
+          "comment": "Battery life is amazing! Easily lasts me through a full day of heavy use.",
+          "rating": 5
+        },
+        {
+          "user": "Olivia Johnson",
+          "profileImg": "https://randomuser.me/api/portraits/women/34.jpg",
+          "comment": "The camera quality is decent, but it could be better in low-light conditions.",
+          "rating": 3
+        },
+        {
+          "user": "Lucas Brown",
+          "profileImg": "https://randomuser.me/api/portraits/men/35.jpg",
+          "comment": "Great budget phone with fast performance. Highly recommend for everyday use.",
+          "rating": 4
+        },
+        {
+          "user": "Emma Thompson",
+          "profileImg": "https://randomuser.me/api/portraits/women/36.jpg",
+          "comment": "Very sleek design, and the phone feels light in hand. Really happy with it.",
+          "rating": 5
         }
       ]
     }

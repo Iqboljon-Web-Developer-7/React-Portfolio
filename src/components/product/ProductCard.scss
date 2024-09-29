@@ -1,0 +1,15 @@
+.product-card {
+  .product-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .favorite-btn {
+    transition: color 0.3s ease-in-out;
+    &:hover {
+      color: red;
+    }
+  }
+}
