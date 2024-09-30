@@ -10,7 +10,7 @@
       "colors": [
         { "name": "White", "color": "#FFFFFF" },
         { "name": "Black", "color": "#000000" },
-        { "name": "Grey", "color": "#808080" }
+        { "name": "Grey", "color": "#999999" }
       ],
       "category": ["Living Room", "Bedroom"],
       "sku": "1117",
@@ -19,21 +19,19 @@
           "color": "White",
           "qunatity": "5",
           "images": [
-            "https://images.uzum.uz/cn7kl61s99ouqbfunrn0/original.jpg",
-            "https://images.uzum.uz/cn7kkvps99ouqbfunrm0/original.jpg",
-            "https://images.uzum.uz/cn7kl1925kub33f3u7r0/original.jpg",
-            "https://images.uzum.uz/cn7kl2jifoubkc6s5gh0/original.jpg"
+            "https://i5.walmartimages.com/asr/ddffb182-c549-4ae4-a05f-54c8776465c8.68fb22f7a2b7983117073cd796baa24c.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/85e7e570-e191-44a4-a864-c3d9e286c02d.1a13eefc1b02914af419bfe00998ddeb.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/e0d31103-3f8a-4730-8539-66285ca02fdb.3d1656446dcb6f89dc296e5a2907afae.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
           ]
         },
         {
           "color": "Black",
           "qunatity": "0",
           "images": [
-            "https://images.uzum.uz/crp8oechug2lhico7trg/original.jpg",
-            "https://images.uzum.uz/crp8ohuvip07shn5usgg/original.jpg",
-            "https://images.uzum.uz/crp8ojmvip07shn5ush0/original.jpg",
-            "https://images.uzum.uz/crp8oa6vip07shn5usb0/original.jpg",
-            "https://images.uzum.uz/crp8ogevip07shn5usfg/original.jpg"
+            "https://i5.walmartimages.com/seo/Soontrans-Folding-Lap-Desk-for-Bed-Portable-Laptop-Bed-Tray-Table-Stand-Reading-Desk-Breakfast-Tray-Cup-Holder-Table-Black_e8dff371-51ed-44ec-bf60-44b4d9722181.26e0e78d02602067811efdfbf9a30794.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/8e99ae90-fa98-48da-b87a-fd364a969b66.f1a94c5422d95338e59f66fa9a9b13b8.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/b5f6e6ac-ac78-4e4a-9c9a-8601ce35f1ae.4e95c124bd2b5d5a8eaaa5b64d9627b7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/fae1b7bd-94d4-48c2-bb82-8b752ed6145d.edf2b52899933a9251fef6acf35c774b.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
@@ -41,11 +39,10 @@
           "qunatity": "10",
           "status": true,
           "images": [
-            "https://images.uzum.uz/cqeepk4qvss6ad8j17n0/original.jpg",
-            "https://images.uzum.uz/cqeepk4qvss6ad8j17m0/original.jpg",
-            "https://images.uzum.uz/cqeepk4qvss6ad8j17ng/original.jpg",
-            "https://images.uzum.uz/cqeepk7frr885gh3026g/original.jpg",
-            "https://images.uzum.uz/cqeepk4qvss6ad8j17mg/original.jpg"
+            "https://i5.walmartimages.com/asr/3b14749c-8295-4e77-8e4c-d7fdb7faca61.743aa63f1c368eb1a7620ba30404dd13.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/f5d2dc3a-bb2e-4743-b20f-dcd6fcce684e.63c74766f8271fc2b9b765f080e6ec66.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/1e65e132-f96e-481a-8f2e-014263a05c4a.4f42bcb9eb5353368b3a52c0272e6b6f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/a9b777fb-caaa-48c7-adf2-28189805bf64.53417777e339e5692c6c541c16b29744.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         }
       ],
@@ -100,36 +97,34 @@
         { "name": "Violet", "color": "#EE82EE" },
         { "name": "White", "color": "#FFFFFF" }
       ],
-      "category": ["Living Room", "Bedroom"],
+      "category": ["Phones", "Electronics"],
       "sku": "1118",
       "images": [
         {
           "color": "Grey",
           "qunatity": "1",
           "images": [
-            "https://images.uzum.uz/crncbvchug2lhicnqk0g/original.jpg",
-            "https://images.uzum.uz/crncbvajot51rkb2bchg/original.jpg",
-            "https://images.uzum.uz/crncbvevip07shn5hqfg/original.jpg"
+            "https://i5.walmartimages.com/seo/AT-T-Samsung-Galaxy-S24-Ultra-Titanium-Gray-512GB_a3758ac4-b9c8-4e23-a7d1-6078afcbffef.db690f368679ba85c4ac1395f1145bb5.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/0e923c8c-322b-4546-b0f4-3f59e51cc5d4.c4d7fff835a9994857863167c8fa1415.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/f8ab0697-cb43-4e98-bbbc-b836939a6098.82eeb0eb8c1169e02e55d782d6615ab6.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
           "color": "Violet",
           "qunatity": "10",
           "images": [
-            "https://images.uzum.uz/cpbing4crcfqljg12v3g/original.jpg",
-            "https://images.uzum.uz/cpbing4crcfqljg12v30/original.jpg",
-            "https://images.uzum.uz/cpbingbmdtjnp737g140/original.jpg",
-            "https://images.uzum.uz/cp2p6dvj2e4ghqnrgefg/original.jpg",
-            "https://images.uzum.uz/cp2p6dvj2e4ghqnrgee0/original.jpg"
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1718189469AVTf3HAxOlGQ.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1718190818XOpwYRQx5SKr.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1718190817lHRjtmA98cGd.webp"
           ]
         },
         {
           "color": "Black",
           "qunatity": "0",
           "images": [
-            "https://images.uzum.uz/crncbrshug2lhicnqjsg/original.jpg",
-            "https://images.uzum.uz/crncbrqjot51rkb2bcfg/original.jpg",
-            "https://images.uzum.uz/crncbrshug2lhicnqjt0/original.jpg"
+            "https://i5.walmartimages.com/seo/Samsung-Galaxy-S24-Ultra-5G-SM-S928B-DS-256GB-12GB-RAM-DUAL-SIM-Global-Model-Factory-Unlocked-GSM-Titanium-Black_be6b29a9-ba1e-4de4-9c3c-ac88c45d0c0b.47a268b75158f6267671c0e78cc84f44.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/c27a4494-2e0c-4107-aeb3-ea26681da4fe.e6e2393cbe7813d81bb4806a06a945a9.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/e1600a40-8b9a-4792-8047-8f3405605456.63975267b65820778a986911842c14a2.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         }
       ],
@@ -179,17 +174,29 @@
       "originalPrice": 999,
       "status": "New",
       "measurements": "17 1/2 × 20 5/8 inches",
-      "colors": [{ "name": "Grey", "color": "#808080" }],
-      "category": ["Living Room", "Bedroom"],
+      "colors": [
+        { "name": "Grey", "color": "#808080" },
+        { "name": "Gold", "color": "#D4AF37" }
+      ],
+      "category": ["Laptops", "Electronics"],
       "sku": "1117",
       "images": [
         {
           "color": "Grey",
           "qunatity": "80",
           "images": [
-            "https://images.uzum.uz/cqcv3ikqvss6ad8ilu10/original.jpg",
-            "https://images.uzum.uz/cqcv3ikqvss6ad8ilu10/original.jpg",
-            "https://images.uzum.uz/cqcv3kksslotj05l4520/original.jpg"
+            "https://i5.walmartimages.com/seo/Apple-MacBook-Air-13-3-inch-Laptop-Space-Gray-M1-Chip-8GB-RAM-256GB-storage_af1d4133-6de9-4bdc-b1c6-1ca8bd0af7a0.c0eb74c31b2cb05df4ed11124d0e255b.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/6241225e-db0b-44a0-a32f-c3d091feeb06.7efd482507c3842ef01d0073ea27c469.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/898b596c-7fb0-41e4-8cb0-24b3c536db6b.81748360a86f642b4ae1ee7f63516010.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        },
+        {
+          "color": "Gold",
+          "qunatity": "20",
+          "images": [
+            "https://i5.walmartimages.com/asr/c797b78c-8c5d-48b0-b173-1c1808a6712f.ff33e4deb161d7284b89e1a258236644.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/841dddaa-f26c-4453-aa71-67fb1711cb28.751678646d8ef065d6090d74015f9405.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/24dc3dbc-9d27-4cdd-9562-8b8802936ffe.f8a70b1e996812111d523b42a94abc03.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         }
       ],
@@ -251,33 +258,30 @@
           "color": "Ice",
           "qunatity": "80",
           "images": [
-            "https://images.uzum.uz/crla0majot51rkb1qlt0/original.jpg",
-            "https://images.uzum.uz/crla0majot51rkb1qlsg/original.jpg",
-            "https://images.uzum.uz/crla0majot51rkb1qls0/original.jpg",
-            "https://images.uzum.uz/crla0mchug2lhicnaa80/original.jpg",
-            "https://images.uzum.uz/crla0m1bjcvd8a778teg/original.jpg"
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1718270979ScvyguPsZ92K.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1718271376HMLkxoikErc3.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/17182713761XttI1B2nr4d.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/171827137688XkdRx4NSXY.webp"
           ]
         },
         {
           "color": "Blue",
-          "qunatity": "100",
+          "qunatity": "10",
           "images": [
-            "https://images.uzum.uz/crla1ashug2lhicnaao0/original.jpg",
-            "https://images.uzum.uz/crla1apbjcvd8a778u10/original.jpg",
-            "https://images.uzum.uz/crla1ashug2lhicnaan0/original.jpg",
-            "https://images.uzum.uz/crla1ashug2lhicnaang/original.jpg",
-            "https://images.uzum.uz/crla1aqjot51rkb1qmcg/original.jpg"
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1719297031Z9KuPIzRfU0L.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1719297031Ho7Jt5kh2T0y.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1719297031ZuhDJG1Cy7n6.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1719297031deAzX1Acn5Ly.webp"
           ]
         },
         {
           "color": "DarkBlue",
           "qunatity": "20",
           "images": [
-            "https://images.uzum.uz/crla00hbjcvd8a778t6g/original.jpg",
-            "https://images.uzum.uz/crla00hbjcvd8a778t5g/original.jpg",
-            "https://images.uzum.uz/crla00hbjcvd8a778t50/original.jpg",
-            "https://images.uzum.uz/crla00hbjcvd8a778t60/original.jpg",
-            "https://images.uzum.uz/crla00ijot51rkb1qlj0/original.jpg"
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1718270853tT6CJwH71Hw4.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1718271032Gtsfd38K2jPw.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/1718271031ELCeodAHchf7.webp",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/17182710329QIZj6RKc2WV.webp"
           ]
         }
       ],
@@ -327,18 +331,31 @@
       "originalPrice": 40,
       "status": "New",
       "measurements": "4X4 inches",
-      "colors": [{ "name": "White", "color": "#FFFFFF" }],
-      "category": ["Living Room", "Bedroom"],
+      "colors": [
+        { "name": "White", "color": "#FFFFFF" },
+        { "name": "Black", "color": "#000000" }
+      ],
+      "category": ["Living Room", "Home"],
       "sku": "1117",
       "images": [
         {
           "color": "White",
-          "qunatity": "200",
+          "qunatity": "10",
           "images": [
-            "https://images.uzum.uz/ck4kci3k9fq8tdq5bnv0/original.jpg",
-            "https://images.uzum.uz/ck4kcksjvf2qegt43la0/original.jpg",
-            "https://images.uzum.uz/ckfqfrjk9fq8lb3aabg0/original.jpg",
-            "https://images.uzum.uz/ckfqft3k9fq8lb3aabh0/original.jpg"
+            "https://i5.walmartimages.com/seo/Toaster-4-Slice-Keenstone-Stainless-Steel-Retro-Toasters-Bagel-Defrost-Reheat-Cancel-Function-6-Shade-Settings-Removable-Crumb-Tray-Auto-Pop-Up-Kitch_fba43272-d548-42bf-a024-a6248ea4b0b5.5628dbbda111920381044f00416d4ca0.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/8c7344e6-926e-4894-814d-9f1b7d514104.56231507b3c4a520d8e80d47324366c6.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/41145927-db3a-49dc-975c-e09fff1030de.7c209784c84f22a68aa7a243857091b0.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/e048c1a6-fc2d-4193-be65-98aff8676549.a0c5ab132d7bb6451c8dd94ae74dd049.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        },
+        {
+          "color": "Black",
+          "qunatity": "30",
+          "images": [
+            "https://i5.walmartimages.com/seo/Mainstays-2-Slice-Toaster-Black-with-6-Shade-Settings-and-Removable-Crumb-Tray-New_dfd0c6c5-3edd-4115-bd49-50e252231f0b.49419b3e8018c1b48311e9024de7c0e8.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/10613477-60e9-4102-a76c-7b8ba15f575a.cc3b6aaac8815ee64780cb0f611eb120.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFFhttps://i5.walmartimages.com/asr/10613477-60e9-4102-a76c-7b8ba15f575a.cc3b6aaac8815ee64780cb0f611eb120.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/e94ac8aa-a7ac-4f59-913d-e383a16d1f23.d2f2abf91a186c01037372fce59b6883.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/056ee838-244c-45df-aa04-26ee33ddcee2.2c399bc248bb1b08a09c32081845c15f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         }
       ],
@@ -382,42 +399,35 @@
       ]
     },
     {
-      "title": "Sovutgich Artel",
+      "title": "Frigidaire 7.5",
       "description": "Transform your kitchen with our Stainless Steel French Door Refrigerator, designed to enhance both functionality and style. With its spacious layout and modern features, this refrigerator provides the ultimate storage solution for all your groceries.",
       "price": 500,
       "originalPrice": 400,
       "status": "New",
       "measurements": "10X5 inches",
       "colors": [
-        { "name": "White", "color": "#FFFFFF" },
-        { "name": "Silver", "color": "#C0C0C0" },
+        { "name": "Grey", "color": "#F0F0F0" },
         { "name": "Black", "color": "#000000" }
       ],
-      "category": ["Living Room", "Bedroom"],
+      "category": ["Living Room", "Home"],
       "sku": "1117",
       "images": [
         {
-          "color": "White",
-          "qunatity": "100",
+          "color": "Grey",
+          "qunatity": "30",
           "images": [
-            "https://images.uzum.uz/ck4kci3k9fq8tdq5bnv0/original.jpg",
-            "https://images.uzum.uz/cnkl5r84idugcqeghgq0/original.jpg"
+            "https://i5.walmartimages.com/seo/Frigidaire-7-5-Cu-ft-Refrigerator-Platinum-Series-Standard-Door-Style-Stainless-Look_a9d83b4d-d4cc-4d2f-9b54-3f012cf91912.2e8c15923b8817f1469c11d8a9f829f2.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/2e821a85-fb71-4fe6-9a00-0fab18f5c28d.964ec3643a648a663f175a8078f66b88.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/8c17da95-d7e3-4fca-a43d-fc4d630fcc02.9ca073cef989550bff05f1088943380f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
           "color": "Black",
           "qunatity": "10",
           "images": [
-            "https://images.uzum.uz/cnkl4k5bl7rtgkb9a1kg/original.jpg",
-            "https://images.uzum.uz/cnkl4t04idugcqeghggg/original.jpg"
-          ]
-        },
-        {
-          "color": "Silver",
-          "qunatity": "50",
-          "images": [
-            "https://images.uzum.uz/crkie0k3t0q1s5n3ukt0/original.jpg",
-            "https://images.uzum.uz/cp2d2hvfrr80f2glbodg/original.jpg"
+            "https://i5.walmartimages.com/seo/TCL-4-5-Cu-ft-Two-Door-Compact-Mini-Fridge-With-Freezer-Black-Energy-Star-MR453B_34a242b0-ecb4-4171-a12c-96e7a08b0051.db1e14ddbc57ea29ad5b75dbe6608d15.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/2a9fc14c-14fa-4213-892d-e348dac6c9cf.a8ea216e02a8faea31f36b281cacad19.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/ba7723aa-9a01-4b89-ac29-b91b6b6e4dfd.af41b6b067087a7d28dc935cedeb5c82.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         }
       ],
@@ -472,38 +482,35 @@
         { "name": "Dark Turquoise", "color": "#007C92" },
         { "name": "Black", "color": "#000000" }
       ],
-      "category": ["Living Room", "Bedroom"],
+      "category": ["Phones", "Electronics"],
       "sku": "1117",
       "images": [
         {
           "color": "Siren",
-          "qunatity": "100",
+          "qunatity": "10",
           "images": [
-            "https://images.uzum.uz/cphd5gjmdtjnp738n8u0/original.jpg",
-            "https://images.uzum.uz/co36v9epom4ma10re8pg/original.jpg",
-            "https://images.uzum.uz/co36v95lqsilsr3ldpog/original.jpg",
-            "https://images.uzum.uz/co36v9f2u18gghcm3ld0/original.jpg",
-            "https://images.uzum.uz/cmfuu61s99ouqbfqahkg/original.jpg"
+            "https://i5.walmartimages.com/seo/Xiaomi-Redmi-Note-13-PRO-5G-4G-LTE-256GB-8GB-6-67-200MP-Triple-Tmobile-Mint-Tello-Global-Global-Bands-Unlocked-Aurora-Purple-Global-ROM_a6f7f021-b275-493a-b83f-7e2a5b848686.e458a7278b2916239ca1db889281e265.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/10daae65-8bfe-4f85-8ba3-3e4a9ce72964.5b3b6fefb067d27d38a407616f630633.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
           "color": "Black",
           "qunatity": "10",
           "images": [
-            "https://images.uzum.uz/cphd5a7frr82f0a5q1kg/original.jpg",
-            "https://images.uzum.uz/cpjbe77frr82f0a67l6g/original.jpg",
-            "https://images.uzum.uz/cpjbe73mdtjnp7394rg0/original.jpg",
-            "https://images.uzum.uz/co36v1n2u18gghcm3l9g/original.jpg"
+            "https://i5.walmartimages.com/seo/Xiaomi-Redmi-Note-13-PRO-5G-4G-LTE-256GB-8GB-6-67-200MP-Triple-Tmobile-Mint-Tello-Global-Global-Bands-Unlocked-Midnight-Black-Global-ROM_af87d38b-4613-4e6a-a3b4-c76ba335a6d4.014c7598503a1af2d96001bc68870ad7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/e655b76d-cf90-4f3f-a69d-c97017c36a61.4d91daf38a890b3baad631a1898ddf17.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/0567fda7-f177-4f5c-a12c-36690dc05832.b4ab3b933bae68b8b05a4ca9ec46c354.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/e82c8fed-e06a-4d85-9008-427fdf3c0b76.7bbe362c9c7757190bb8c1c4a06c6540.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
           "color": "Dark Turquoise",
           "qunatity": "40",
           "images": [
-            "https://images.uzum.uz/cphd5bffrr82f0a5q1l0/original.jpg",
-            "https://images.uzum.uz/co36vgdlqsilsr3ldprg/original.jpg",
-            "https://images.uzum.uz/co36vgf2u18gghcm3lf0/original.jpg",
-            "https://images.uzum.uz/co36vgepom4ma10re8s0/original.jpg"
+            "https://i5.walmartimages.com/seo/Xiaomi-Redmi-Note-13-PRO-4G-LTE-512GB-12GB-6-67-200MP-Triple-for-Tmobile-Metro-Tello-Mint-Global-GLOBAL-Bands-Unlocked-Forest-Green-Global-ROM_015d8124-4aaf-4787-be63-381c8dab5fb2.0ae7011992a00a63997123cdb150d777.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/70e85b7c-20ec-47fc-a271-0ccd2d39b86d.aed987f967d1a832a0fdcb084ad7e852.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/288688cd-2663-4ffb-bc10-dd3a71fbb81a.a58c5962825769722c304078b7f11a40.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/1d5dc9ed-e9bc-48d8-8f9f-6f50e42dd22f.9bee13f2396a70fe547b5e0c3a9e960f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         }
       ],
@@ -566,28 +573,27 @@
           "color": "White",
           "qunatity": "30",
           "images": [
-            "https://images.uzum.uz/cnhjeio4idugcqefu400/original.jpg",
-            "https://images.uzum.uz/cnhjeidbl7rtgkb8mr00/original.jpg",
-            "https://images.uzum.uz/cnhjei84idugcqefu3vg/original.jpg"
+            "https://i5.walmartimages.com/seo/Straight-Talk-Apple-iPhone-15-Pro-Max-256GB-White-Prepaid-Smartphone_1d086a82-6bb6-4ad8-95ef-4909212c24ff.b7b3da6f23b1dd249e7ba93e3559205c.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/a02a9f34-7d6e-4ffa-abb2-570f075c2f87/378ff648-9e33-4289-aa81-01af01660069.webp"
           ]
         },
         {
           "color": "Black",
           "qunatity": "10",
           "images": [
-            "https://images.uzum.uz/cnhjhudbl7rtgkb8mrlg/original.jpg",
-            "https://images.uzum.uz/cnhjhu5bl7rtgkb8mrl0/original.jpg",
-            "https://images.uzum.uz/cnhjhulbl7rtgkb8mrm0/original.jpg"
+            "https://i5.walmartimages.com/seo/Restored-Apple-iPhone-15-Pro-Max-256GB-Black-Titanium-Factory-Unlocked-Refurbished_7314943b-1438-4d9a-8631-20924be04425.51cd89df469b55edc9a71be82445567a.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/da7bb01c-689a-4680-b447-6057c0238686.2bcef8076927f3c1be1396f81ce31e0f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/869bdef7-f54d-476d-ae9f-1a5ae0cf74bc.6c4fc17024bbb7ab584a99061fe850e2.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
           "color": "Titan Grey",
           "qunatity": "42",
           "images": [
-            "https://images.uzum.uz/cppdqv8sarnfdo98i6jg/original.jpg",
-            "https://images.uzum.uz/cnhjftku2hhlb05gcnj0/original.jpg",
-            "https://images.uzum.uz/cnhjft5bl7rtgkb8mr9g/original.jpg",
-            "https://images.uzum.uz/cnhjft5bl7rtgkb8mr90/original.jpg"
+            "https://i5.walmartimages.com/asr/7c542df3-e6b3-4b7a-8dfa-ad252d411dcb.2c1e103d237d8914cfb584ad4a5d828c.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/bc6873c6-7357-4297-8abd-9df968fe07ba.3d8b4395090baabf5a5a8d4e3c911bbb.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/0e97ac2d-f548-4ab6-b290-dddb39ebccfa.7533ef9e993259c188e760484c6eb4e8.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/2f54d1a1-c5a8-49a1-83a1-7b56c1de6b06.f32d9f0762c0d055b8da78ba8f63f5cc.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
@@ -657,16 +663,18 @@
           "color": "White",
           "qunatity": "11",
           "images": [
-            "https://images.uzum.uz/cq5irmr5qt1gj8deg4pg/original.jpg",
-            "https://images.uzum.uz/cq5iroj5qt1gj8deg4q0/original.jpg"
+            "https://i5.walmartimages.com/seo/Farberware-FMG13SS-1-3-Microwave-Oven-w-LED-Light-SENSOR-1100-Watts-Stainless_d101f906-a5d2-4cd7-8c48-8edaacbcfb16.1ab18ebbc8ba1170c5a14c2ad6b3efc1.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/13896204-4186-42e8-bfc4-96552d02a761.70928097ebb902d6f2f9847f86f4abe8.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/971947fa-cafc-470e-944d-e25a338d14a1.fd5f20444c73afbff375cb29f678e3bb.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
           "color": "Black",
           "qunatity": "24",
           "images": [
-            "https://images.uzum.uz/cq5irkj5qt1gj8deg4p0/original.jpg",
-            "https://images.uzum.uz/cq5irkgsarnfdo9arr0g/original.jpg"
+            "https://i5.walmartimages.com/seo/Mainstays-2-2-Cu-ft-Microwave-Ovens-in-Black-Color_40a77273-39c5-424d-b3c2-91589ca59a23.24fd7829773ad65b21c26c3a40f11fca.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/35e5aa99-bcb8-4b18-b6c9-e538cacd75f2.a2f829b395ca38173afc8ded96fd5d10.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/ac46aaaf-8746-49a9-80ff-4dc85012fe33.3450fe3880d84626515034197657bb8f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         }
       ],
@@ -710,55 +718,35 @@
       ]
     },
     {
-      "title": "Redmi 14C",
-      "description": "Xiaomi Redmi 14C smartfoni, 120Hz, 5160MAH, NFC, asosiy kamera 50 mp",
+      "title": "Redmi 13C",
+      "description": "Xiaomi Redmi 13C smartfoni, 120Hz, 5160MAH, NFC, asosiy kamera 50 mp",
       "price": 110,
       "originalPrice": 160,
       "status": "New",
       "measurements": "6.7/6.5 inches",
       "colors": [
-        { "name": "Green Xaki", "color": "#6B8E23" },
-        { "name": "Indigo", "color": "#4B0082" },
-        { "name": "Lavanda", "color": "#E6E6FA" },
-        { "name": "Qora", "color": "#000000" }
+        { "name": "Black", "color": "#000000" },
+        { "name": "Green", "color": "#00aa00" }
       ],
       "category": ["Living Room", "Bedroom"],
       "sku": "1117",
       "images": [
         {
-          "color": "Green Xaki",
-          "qunatity": "900",
+          "color": "Black",
+          "qunatity": "12",
           "images": [
-            "https://images.uzum.uz/crgiaac2gps3jqbg3oo0/original.jpg",
-            "https://images.uzum.uz/crgiaafs09cvvbjrfke0/original.jpg",
-            "https://images.uzum.uz/crgiaae0t1lqb8ar5v0g/original.jpg"
+            "https://i5.walmartimages.com/seo/Redmi-Xiaomi-13C-4G-LTE-256GB-8GB-Factory-Unlocked-Global-ROM-GSM-6-74-50MP-Triple-Camera-for-Tmobile-Metro-Tello-Mint-Globall-Midnight-Black-ROM_ec2bba48-e48f-4563-ab13-4b8f552869c8.aaaaa67027e1492b4c973cc32b9b4cc1.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/3c081fcd-25a8-4cdd-b781-3a80510bafea.f74a2c63fb4c8c1d20cd10a51bfbe463.jpeg?odnHeight=2000&odnWidth=2000&odnBg=737479",
+            "https://i5.walmartimages.com/asr/666d515c-5a6f-4108-bd52-63fec37192c7.ed6bf513261d529174240928dff5361a.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
-          "color": "Indigo",
-          "qunatity": "14",
-          "images": [
-            "https://images.uzum.uz/crgia660t1lqb8ar5uv0/original.jpg",
-            "https://images.uzum.uz/crgia642gps3jqbg3omg/original.jpg",
-            "https://images.uzum.uz/crgia67s09cvvbjrfkd0/original.jpg"
-          ]
-        },
-        {
-          "color": "Lavanda",
-          "qunatity": "42",
-          "images": [
-            "https://images.uzum.uz/crgia8ns09cvvbjrfkdg/original.jpg",
-            "https://images.uzum.uz/crgia8k2gps3jqbg3on0/original.jpg",
-            "https://images.uzum.uz/crgia8m0t1lqb8ar5v00/original.jpg"
-          ]
-        },
-        {
-          "color": "Dark Blue",
+          "color": "Green",
           "qunatity": "40",
           "images": [
-            "https://images.uzum.uz/crgiacvs09cvvbjrfkeg/original.jpg",
-            "https://images.uzum.uz/crgiacu0t1lqb8ar5v1g/original.jpg",
-            "https://images.uzum.uz/crgiacs2gps3jqbg3oog/original.jpg"
+            "https://i5.walmartimages.com/asr/b6f3df22-e995-4c1b-9d2e-9c7492421d6c.8940dde7dd088dd5b9f8947db6ffebac.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/60a06067-bf6c-469b-914a-05240df0de58.5d348a3efc8f5bf68870f42115aafdfa.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/635712be-b025-4047-9d8b-7edfc40cc8f5.580065f0b64448688a50bf6b90946907.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         }
       ],
