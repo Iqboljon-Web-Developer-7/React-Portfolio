@@ -1,7 +1,18 @@
-import { createApi, fetchBaseQuery, retry } from "@reduxjs/toolkit/query/react";
+import {
+  BaseQueryFn,
+  createApi,
+  FetchArgs,
+  fetchBaseQuery,
+  FetchBaseQueryError,
+  retry,
+} from "@reduxjs/toolkit/query/react";
 // import { logout } from '../slices/authSlice';
 
-const baseQuery = async (args, api, extraOptions) => {
+const baseQuery: BaseQueryFn<
+  string | FetchArgs,
+  unknown,
+  FetchBaseQueryError
+> = async (args, api, extraOptions) => {
   const { dispatch } = api;
   const rawBaseQuery = fetchBaseQuery({
     baseUrl: "https://66f115e341537919154f732a.mockapi.io", // o'zgaradi

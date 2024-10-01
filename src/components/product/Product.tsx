@@ -24,7 +24,6 @@ const ProductCard: FC<Product> = ({ product }) => {
     }
     return list;
   };
-  console.log(product);
 
   return (
     <div className="product p-2">
