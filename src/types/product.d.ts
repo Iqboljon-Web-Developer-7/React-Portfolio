@@ -1,6 +1,7 @@
 // src/types/product.d.ts
 
 export interface ProductPropTypes {
+  id: string | number;
   title: string;
   description: string;
   category: string[];

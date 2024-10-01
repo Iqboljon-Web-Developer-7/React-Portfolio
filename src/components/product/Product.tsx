@@ -6,25 +6,26 @@ import { IoStar } from "react-icons/io5";
 import { IoStarOutline } from "react-icons/io5";
 
 import { ProductPropTypes } from "@/types/product";
+import { Link } from "react-router-dom";
 
 interface Product {
   product: ProductPropTypes;
 }
 
-const ProductCard: FC<Product> = ({ product }) => {
-  const countStars = (n: number) => {
-    n = Math.round(n);
-    let list = [];
-    for (let i = 0; i < 5; i++) {
-      if (i < n) {
-        list.push(<IoStar key={i} />);
-      } else {
-        list.push(<IoStarOutline key={i} />);
-      }
+export const countStars = (n: number) => {
+  n = Math.round(n);
+  let list = [];
+  for (let i = 0; i < 5; i++) {
+    if (i < n) {
+      list.push(<IoStar key={i} />);
+    } else {
+      list.push(<IoStarOutline key={i} />);
     }
-    return list;
-  };
+  }
+  return list;
+};
 
+const ProductCard: FC<Product> = ({ product }) => {
   return (
     <div className="product p-2">
       <div className="product__images relative group">
@@ -45,7 +46,9 @@ const ProductCard: FC<Product> = ({ product }) => {
             ) / product.comments.length
           )}
         </div>
-        <h4 className="product__title">{product.title}</h4>
+        <h4 className="product__title">
+          <Link to={`/product/${product.id}`}>{product.title}</Link>
+        </h4>
         <p className="product__price">${product.price}</p>
       </div>
     </div>

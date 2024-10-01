@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "id": "1",
       "title": "Tray Table",
       "description": "Buy one or buy a few and make every space where you sit more convenient. Light and easy to move around with removable tray top, handy for serving snacks.",
       "price": 199,
@@ -8,9 +9,18 @@
       "status": "New",
       "measurements": "17 1/2 × 20 5/8 inches",
       "colors": [
-        { "name": "White", "color": "#FFFFFF" },
-        { "name": "Black", "color": "#000000" },
-        { "name": "Grey", "color": "#999999" }
+        {
+          "name": "White",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "color": "#000000"
+        },
+        {
+          "name": "Grey",
+          "color": "#999999"
+        }
       ],
       "category": ["Living Room", "Bedroom"],
       "sku": "1117",
@@ -86,6 +96,7 @@
       ]
     },
     {
+      "id": "2",
       "title": "Galaxy S24 Ultra",
       "description": "User privacy continues to be our priority in the AI era. With the launch of Galaxy AI on the Galaxy S24 Series, you can rest assured that we will not store or use your personal data for any purpose without your consent.",
       "price": 1100,
@@ -93,9 +104,18 @@
       "status": "New",
       "measurements": "6.8 inches",
       "colors": [
-        { "name": "Grey", "color": "#808080" },
-        { "name": "Violet", "color": "#EE82EE" },
-        { "name": "White", "color": "#FFFFFF" }
+        {
+          "name": "Grey",
+          "color": "#808080"
+        },
+        {
+          "name": "Violet",
+          "color": "#EE82EE"
+        },
+        {
+          "name": "White",
+          "color": "#FFFFFF"
+        }
       ],
       "category": ["Phones", "Electronics"],
       "sku": "1118",
@@ -168,6 +188,7 @@
       ]
     },
     {
+      "id": " 3",
       "title": "MacBook Air 13",
       "description": "Noutbuk Apple MacBook Air 13 M1 8GB/256GB, Gray",
       "price": 800,
@@ -175,8 +196,14 @@
       "status": "New",
       "measurements": "17 1/2 × 20 5/8 inches",
       "colors": [
-        { "name": "Grey", "color": "#808080" },
-        { "name": "Gold", "color": "#D4AF37" }
+        {
+          "name": "Grey",
+          "color": "#808080"
+        },
+        {
+          "name": "Gold",
+          "color": "#D4AF37"
+        }
       ],
       "category": ["Laptops", "Electronics"],
       "sku": "1117",
@@ -240,6 +267,7 @@
       ]
     },
     {
+      "id": " 4",
       "title": "Galaxy A15",
       "description": "Smartfon Samsung Galaxy A15, 6GB / 128GB, 6.5 Super AMOLED 90 Hz, Dual nano SIM",
       "price": 210,
@@ -247,9 +275,18 @@
       "status": "New",
       "measurements": "6.6 inches",
       "colors": [
-        { "name": "Ice", "color": "#F0F8FF" },
-        { "name": "Blue", "color": "#0000FF" },
-        { "name": "DarkBlue", "color": "#00008B" }
+        {
+          "name": "Ice",
+          "color": "#F0F8FF"
+        },
+        {
+          "name": "Blue",
+          "color": "#0000FF"
+        },
+        {
+          "name": "DarkBlue",
+          "color": "#00008B"
+        }
       ],
       "category": ["Living Room", "Bedroom"],
       "sku": "1117",
@@ -325,6 +362,7 @@
       ]
     },
     {
+      "id": " 5",
       "title": "toster Sonifer",
       "description": "The 2-Slice Toaster combines sleek design with exceptional performance, making it a must-have for your kitchen. With adjustable browning controls and wide slots, it accommodates everything from thin slices of bread to thick bagels, ensuring your toast comes out exactly the way you like it.",
       "price": 50,
@@ -332,8 +370,14 @@
       "status": "New",
       "measurements": "4X4 inches",
       "colors": [
-        { "name": "White", "color": "#FFFFFF" },
-        { "name": "Black", "color": "#000000" }
+        {
+          "name": "White",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "color": "#000000"
+        }
       ],
       "category": ["Living Room", "Home"],
       "sku": "1117",
@@ -399,6 +443,7 @@
       ]
     },
     {
+      "id": " 6",
       "title": "Frigidaire 7.5",
       "description": "Transform your kitchen with our Stainless Steel French Door Refrigerator, designed to enhance both functionality and style. With its spacious layout and modern features, this refrigerator provides the ultimate storage solution for all your groceries.",
       "price": 500,
@@ -406,8 +451,14 @@
       "status": "New",
       "measurements": "10X5 inches",
       "colors": [
-        { "name": "Grey", "color": "#F0F0F0" },
-        { "name": "Black", "color": "#000000" }
+        {
+          "name": "Grey",
+          "color": "#F0F0F0"
+        },
+        {
+          "name": "Black",
+          "color": "#000000"
+        }
       ],
       "category": ["Living Room", "Home"],
       "sku": "1117",
@@ -471,6 +522,7 @@
       ]
     },
     {
+      "id": " 7",
       "title": "Note 13 Pro",
       "description": "Smartfon Xiaomi Redmi Note 13 Pro, 8/256 GB, 12/512 GB, 6.67, 120 H, AMOLED, 5000 mA/soat",
       "price": 230,
@@ -478,9 +530,18 @@
       "status": "New",
       "measurements": "10X5 inches",
       "colors": [
-        { "name": "Siren", "color": "#C8102E" },
-        { "name": "Dark Turquoise", "color": "#007C92" },
-        { "name": "Black", "color": "#000000" }
+        {
+          "name": "Siren",
+          "color": "#C8102E"
+        },
+        {
+          "name": "Dark Turquoise",
+          "color": "#007C92"
+        },
+        {
+          "name": "Black",
+          "color": "#000000"
+        }
       ],
       "category": ["Phones", "Electronics"],
       "sku": "1117",
@@ -554,6 +615,7 @@
       ]
     },
     {
+      "id": " 8",
       "title": "IPhone 15 Pro/Promax",
       "description": "Introducing the iPhone 15 Pro Max, the ultimate smartphone designed for those who demand the very best. Featuring a brilliant 6.7-inch Super Retina XDR display with ProMotion technology, enjoy smooth scrolling and breathtaking visuals that bring your content to life in stunning detail.",
       "price": 1200,
@@ -561,10 +623,22 @@
       "status": "New",
       "measurements": "6.7/6.5 inches",
       "colors": [
-        { "name": "White", "color": "#FFFFFF" },
-        { "name": "Black", "color": "#000000" },
-        { "name": "Titan Grey", "color": "#A7A8AA" },
-        { "name": "Dark Blue", "color": "#002D72" }
+        {
+          "name": "White",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "color": "#000000"
+        },
+        {
+          "name": "Titan Grey",
+          "color": "#A7A8AA"
+        },
+        {
+          "name": "Dark Blue",
+          "color": "#002D72"
+        }
       ],
       "category": ["Living Room", "Bedroom"],
       "sku": "1117",
@@ -646,6 +720,7 @@
       ]
     },
     {
+      "id": " 9",
       "title": "Microvawe pech",
       "description": "The microwave oven is an essential appliance for any modern kitchen, offering quick and efficient heating, cooking, or defrosting options. With a spacious interior and multiple preset programs, it makes preparing a variety of dishes easy and convenient. The intuitive electronic control panel and adjustable power levels provide precise cooking control. Its sleek design complements any kitchen decor, while safety features like automatic shut-off and child safety lock ensure reliable and secure operation.",
       "price": 60,
@@ -653,8 +728,14 @@
       "status": "New",
       "measurements": "4x5 inches",
       "colors": [
-        { "name": "White", "color": "#FFFFFF" },
-        { "name": "Qora", "color": "#000000" }
+        {
+          "name": "White",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "Qora",
+          "color": "#000000"
+        }
       ],
       "category": ["Living Room", "Bedroom"],
       "sku": "1117",
@@ -718,6 +799,7 @@
       ]
     },
     {
+      "id": " 10",
       "title": "Redmi 13C",
       "description": "Xiaomi Redmi 13C smartfoni, 120Hz, 5160MAH, NFC, asosiy kamera 50 mp",
       "price": 110,
@@ -725,8 +807,14 @@
       "status": "New",
       "measurements": "6.7/6.5 inches",
       "colors": [
-        { "name": "Black", "color": "#000000" },
-        { "name": "Green", "color": "#00aa00" }
+        {
+          "name": "Black",
+          "color": "#000000"
+        },
+        {
+          "name": "Green",
+          "color": "#00aa00"
+        }
       ],
       "category": ["Living Room", "Bedroom"],
       "sku": "1117",

@@ -46,7 +46,7 @@ const Header = () => {
             <img src={websiteLogo} alt="website logo" />
           </Link>
         </div>
-        <div className="header__links text-sm text-slate-400 hidden md:flex items-center justify-center gap-5">
+        <div className="header__links text-sm text-slate-400 opacity-0 w-0 md:opacity-100 md:w-auto md:flex items-center justify-center gap-5">
           <NavLink to={"/"}>Home</NavLink>
           <NavLink to={"/shop"}>Shop</NavLink>
           <NavLink to={"/product"}>Product</NavLink>
