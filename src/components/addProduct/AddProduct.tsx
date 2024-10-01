@@ -1,11 +1,11 @@
 import React, { FC, useState } from "react";
 import UniModal from "../modal/Modal";
-import { useDispatch } from "react-redux";
+// import { useDispatch } from "react-redux";
 import { Button, Form, Input } from "antd";
 import { jsx } from "@emotion/react";
 
 const AddProduct: FC = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const [open, setOpen] = useState(false);
 
   const onFinish = (values: object) => {

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import { GoArrowRight } from "react-icons/go";
-import { useGetProductsQuery } from "@/redux/api/products-api";
+// import { useGetProductsQuery } from "@/redux/api/products-api";
 
 import { useRef, useState } from "react";
 // Import Swiper React components
@@ -22,7 +22,7 @@ import ProductCard from "../product/Product";
 import { ProductPropTypes } from "@/types/product";
 
 const NewProducts = () => {
-  const { data } = useGetProductsQuery<ProductPropTypes[]>(null);
+  // const { data } = useGetProductsQuery<ProductPropTypes[]>(null);
   const [paddingL, setPadingL] = useState(0);
 
   const productInfoContainer = useRef<HTMLDivElement | null>(null);
@@ -64,11 +64,11 @@ const NewProducts = () => {
         className="mySwiper mt-5"
         style={{ paddingLeft: `${paddingL}px` }}
       >
-        {data?.map((product: ProductPropTypes, idx: number) => (
+        {/* {data?.map((product: ProductPropTypes, idx: number) => (
           <SwiperSlide key={idx} className="product">
             <ProductCard product={product} />
           </SwiperSlide>
-        ))}
+        ))} */}
       </Swiper>
     </section>
   );
