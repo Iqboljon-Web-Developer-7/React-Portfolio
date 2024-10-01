@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { FC, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -12,11 +12,11 @@ import "./styles.scss";
 import { Navigation, Pagination } from "swiper/modules";
 
 // Images
-import carouselImg1 from "@/assets/homeCarousel/carousel-1.png";
+import carouselImg1 from "@/assets/homeCarousel/carousel-2.jpg";
 import carouselImg2 from "@/assets/homeCarousel/carousel-2.jpg";
 import carouselImg3 from "@/assets/homeCarousel/carousel-3.jpg";
 
-function HomeCarousel() {
+const HomeCarousel: FC = () => {
   return (
     <div className="wrapper">
       <Swiper
@@ -50,6 +50,6 @@ function HomeCarousel() {
       </Swiper>
     </div>
   );
-}
+};
 
 export default HomeCarousel;

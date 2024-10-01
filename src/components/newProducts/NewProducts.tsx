@@ -18,19 +18,27 @@ import "./styles.scss";
 import { Scrollbar } from "swiper/modules";
 import ProductCard from "../product/Product";
 
+// Types
+import { ProductPropTypes } from "@/types/product";
+
 const NewProducts = () => {
-  const { data } = useGetProductsQuery();
+  const { data } = useGetProductsQuery<ProductPropTypes[]>(null);
   const [paddingL, setPadingL] = useState(0);
 
-  const productInfoContainer = useRef();
+  const productInfoContainer = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
     const resizeObserver = new ResizeObserver((entries) => {
       for (let entry of entries) {
-        setPadingL(entry.target.offsetLeft);
+        const target = entry.target as HTMLDivElement;
+        setPadingL(target.offsetLeft);
       }
     });
 
-    resizeObserver.observe(productInfoContainer.current);
+    let container = productInfoContainer.current;
+
+    if (container) {
+      resizeObserver.observe(container);
+    }
   }, []);
 
   return (
@@ -40,12 +48,15 @@ const NewProducts = () => {
         className="newProducts__info wrapper flex items-end justify-between"
       >
         <h2 className="w-[4ch] text-4xl leading-10">New Arrival</h2>
-        <Link className="flex-center gap-3 underline underline-offset-4">
+        <Link
+          to={"/"}
+          className="flex-center gap-3 underline underline-offset-4"
+        >
           More Products <GoArrowRight />
         </Link>
       </div>
       <Swiper
-        slidesPerView={4.5}
+        slidesPerView={"auto"}
         scrollbar={{
           hide: false,
         }}
@@ -53,8 +64,8 @@ const NewProducts = () => {
         className="mySwiper mt-5"
         style={{ paddingLeft: `${paddingL}px` }}
       >
-        {data?.map((product, idx) => (
-          <SwiperSlide key={idx}>
+        {data?.map((product: ProductPropTypes, idx: number) => (
+          <SwiperSlide key={idx} className="product">
             <ProductCard product={product} />
           </SwiperSlide>
         ))}

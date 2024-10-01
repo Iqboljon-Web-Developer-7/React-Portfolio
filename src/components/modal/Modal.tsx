@@ -1,9 +1,14 @@
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
 import { Box } from "@mui/material";
-import { useState } from "react";
+import { FC, useState } from "react";
 
-export default function UniModal({ title, children }) {
+interface Modal {
+  title: string;
+  children: JSX.Element;
+}
+
+const UniModal: FC<Modal> = ({ title, children }): JSX.Element => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -23,4 +28,6 @@ export default function UniModal({ title, children }) {
       </Modal>
     </div>
   );
-}
+};
+
+export default UniModal;

@@ -1,9 +1,9 @@
-import React from "react";
+import React, { FC } from "react";
 import Header from "@/components/header/Header";
 
 import { Outlet } from "react-router-dom";
 
-const Layout = () => {
+const Layout: FC = (): JSX.Element => {
   return (
     <>
       <Header />

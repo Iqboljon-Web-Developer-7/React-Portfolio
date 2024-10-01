@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import { Link } from "react-router-dom";
 
 // icons
@@ -9,7 +9,7 @@ import simpleImg1 from "@/assets/simple/simple-1.png";
 import simpleImg2 from "@/assets/simple/simple-2.png";
 import simpleImg3 from "@/assets/simple/simple-3.png";
 
-const SimplyUnique = () => {
+const SimplyUnique: FC = (): JSX.Element => {
   return (
     <section className="simple wrapper mt-8">
       <div className="simple__info flex-center justify-between flex-col gap-5 text-center md:text-left md:flex-row">
@@ -33,7 +33,10 @@ const SimplyUnique = () => {
             style={{ backgroundImage: `url(${simpleImg1})` }}
           >
             <h3 className="text-3xl tracking-wide">Living Room</h3>
-            <Link className="mt-3 flex-center justify-start gap-2 underline underline-offset-4">
+            <Link
+              to={"/"}
+              className="mt-3 flex-center justify-start gap-2 underline underline-offset-4"
+            >
               Shop now <GoArrowRight />
             </Link>
           </div>
@@ -44,7 +47,10 @@ const SimplyUnique = () => {
             style={{ backgroundImage: `url(${simpleImg2})` }}
           >
             <h3 className="text-3xl tracking-wide">Bedroom</h3>
-            <Link className="mt-3 flex-center justify-start gap-2 underline underline-offset-4">
+            <Link
+              to={"/"}
+              className="mt-3 flex-center justify-start gap-2 underline underline-offset-4"
+            >
               Shop now <GoArrowRight />
             </Link>
           </div>
@@ -55,7 +61,10 @@ const SimplyUnique = () => {
             style={{ backgroundImage: `url(${simpleImg3})` }}
           >
             <h3 className="text-3xl tracking-wide">Kitchen</h3>
-            <Link className="mt-3 flex-center justify-start gap-2 underline underline-offset-4">
+            <Link
+              to={"/"}
+              className="mt-3 flex-center justify-start gap-2 underline underline-offset-4"
+            >
               Shop now <GoArrowRight />
             </Link>
           </div>

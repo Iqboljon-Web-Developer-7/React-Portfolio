@@ -1,13 +1,21 @@
-import React, { memo } from "react";
+import React, { FC, memo } from "react";
 import { NavLink } from "react-router-dom";
 
-const MobileNav = ({ isOpen, setIsOpen }) => {
-  const handleClick = (e) => {
-    e = e.target.classList;
+interface PropTypes {
+  isOpen: boolean;
+  setIsOpen: any;
+}
 
-    e.contains("close-icon") || e.contains("mobileNav")
-      ? setIsOpen(false)
-      : null;
+const MobileNav: FC<PropTypes> = ({ isOpen, setIsOpen }) => {
+  const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    const target = e.target as HTMLDivElement;
+
+    if (
+      target.classList.contains(`close-icon`) ||
+      target.classList.contains("mobileNav")
+    ) {
+      setIsOpen(false);
+    }
   };
 
   return (

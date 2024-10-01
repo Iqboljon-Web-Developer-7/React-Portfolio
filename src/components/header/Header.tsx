@@ -6,6 +6,8 @@ import MobileNav from "../mobileNav/MobileNav";
 
 // Images
 import websiteLogo from "@/assets/logo.svg";
+
+// import websiteLogo from "@/asse"
 import { RiSearch2Line } from "react-icons/ri";
 import { LuUserCircle } from "react-icons/lu";
 
