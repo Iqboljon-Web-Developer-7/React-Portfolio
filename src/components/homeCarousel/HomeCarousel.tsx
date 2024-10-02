@@ -12,7 +12,7 @@ import "./styles.scss";
 import { Navigation, Pagination } from "swiper/modules";
 
 // Images
-import carouselImg1 from "@/assets/homeCarousel/carousel-2.jpg";
+import carouselImg1 from "@/assets/homeCarousel/carousel-1.png";
 import carouselImg2 from "@/assets/homeCarousel/carousel-2.jpg";
 import carouselImg3 from "@/assets/homeCarousel/carousel-3.jpg";
 
