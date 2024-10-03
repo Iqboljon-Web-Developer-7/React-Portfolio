@@ -40,10 +40,10 @@ const ProductCard: FC<Product> = ({ product }) => {
       <div className="product__info mt-3 mb-10 grid gap-1 text-sm text-start font-medium">
         <div className="product__info--stars flex-center justify-start gap-1 text-sm text-slate-800">
           {countStars(
-            product.comments.reduce(
+            product.reviews.comments.reduce(
               (prev, current) => (prev += current.rating),
               0
-            ) / product.comments.length
+            ) / product.reviews.comments.length
           )}
         </div>
         <h4 className="product__title">

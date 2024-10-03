@@ -4,6 +4,7 @@ import HomeCarousel from "@/components/homeCarousel/HomeCarousel";
 import NewProducts from "@/components/newProducts/NewProducts";
 import Services from "@/components/services/Services";
 import SimplyUnique from "@/components/simplyUnique/SimplyUnique";
+import Discount from "@/components/discount/Discount";
 
 const Home: FC = (): JSX.Element => {
   return (
@@ -12,6 +13,7 @@ const Home: FC = (): JSX.Element => {
       <SimplyUnique />
       <NewProducts />
       <Services />
+      <Discount />
     </main>
   );
 };

@@ -1,34 +1,53 @@
-// src/types/product.d.ts
-
 export interface ProductPropTypes {
-  id: string | number;
+  id: string;
   title: string;
   description: string;
-  category: string[];
-  colors: Color[];
-  comments: Comment[];
-  images: ProductImage[];
-  measurements: string;
-  originalPrice: number;
   price: number;
-  sku: string;
+  originalPrice: number;
+  discount: {
+    value: number;
+    percentage: number;
+  };
   status: string;
-}
-
-export interface Color {
-  name: string;
-  color: string; // Hex code
-}
-
-export interface Comment {
-  user: string;
-  profileImg: string; // URL to the user's profile image
-  comment: string; // User's comment text
-  rating: number; // Rating out of 5
-}
-
-export interface ProductImage {
-  color: string; // The color of the product (e.g., 'White', 'Black')
-  quantity: number; // Quantity of the product available for this color
-  images: string[]; // Array of images for the product in this color
+  category: {
+    primary: string;
+    secondary: string;
+  };
+  sku: string;
+  stock: {
+    [color: string]: number; // Dynamic keys for color and stock quantity
+  };
+  images: {
+    color: string;
+    images: string[];
+  }[];
+  reviews: {
+    totalReviews: number;
+    comments: {
+      user: string;
+      profileImg: string;
+      comment: string;
+      rating: number;
+    }[];
+  };
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+    slug: string;
+  };
+  timestamps: {
+    createdAt: string; // ISO 8601 date string
+    updatedAt: string; // ISO 8601 date string
+  };
+  additional_infos: {
+    measurements: {
+      width: number;
+      depth: number;
+      unit: string;
+    };
+    weight: {
+      value: number;
+      unit: string;
+    };
+  };
 }

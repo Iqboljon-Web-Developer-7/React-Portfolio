@@ -2,11 +2,6 @@
   text-align: center;
   font-size: 18px;
   background: #fff;
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .swiper-slide img {
@@ -17,9 +12,16 @@
   max-height: 30rem;
 }
 
+.swiper-slide-visible {
+  transition: all 200ms;
+  opacity: 0.5 !important;
+}
+.swiper-slide-visible.swiper-slide-thumb-active {
+  opacity: 1 !important;
+}
+
 .swiper {
   width: 100%;
-  // height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,7 +45,15 @@
 .mySwiper .swiper-slide {
   width: 25%;
   height: 100%;
-  // opacity: 0.4;
+  @media (max-width: 50rem) {
+    width: 33.3%;
+  }
+  @media (max-width: 34rem) {
+    width: 50%;
+  }
+  @media (max-width: 28rem) {
+    width: 100%;
+  }
 }
 
 .mySwiper .swiper-slide-thumb-active {

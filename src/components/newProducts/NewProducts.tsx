@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import { GoArrowRight } from "react-icons/go";
 import { useGetProductsQuery } from "@/redux/api/products-api";
 
 import { useRef, useState } from "react";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -74,8 +75,6 @@ const NewProducts = () => {
             <ProductCard product={product} />
           </SwiperSlide>
         ))}
-        {/* {data?.map((product: ProductPropTypes, idx: number) => (
-        ))} */}
       </Swiper>
     </section>
   );

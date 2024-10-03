@@ -33,10 +33,10 @@ const Header = () => {
   }, []);
   return (
     <header
-      className={`header-wrapper sticky top-0 mx-auto py-4 px-1 xs:px-2 duration-200 ${
+      className={`header-wrapper sticky top-0 mx-auto py-5 px-1 xs:px-2 duration-200 ${
         isFixed
           ? "animate-fade-in-top-1 bg-[#00000022] shadow-md"
-          : "z-20 bg-slate-50"
+          : "z-20 bg-white border-b"
       } backdrop-blur-sm z-20`}
     >
       <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
