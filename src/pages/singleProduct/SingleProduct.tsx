@@ -58,7 +58,7 @@ const SingleProduct: FC = () => {
     setCarouselImgs(currentImgs[0].images);
   };
 
-  return (
+  return data ? (
     <div className="singleProduct wrapper mb-5">
       <p className="my-5 text-sm text-[#605F5F]">
         Home &nbsp;{">"}&nbsp; Shop &nbsp;{">"}&nbsp;{" "}
@@ -117,6 +117,39 @@ const SingleProduct: FC = () => {
                   );
                 }
               )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  ) : (
+    <div className="animate-pulse wrapper mt-6">
+      <div className="h-4 bg-gray-200 rounded w-1/3 mb-4 sm:w-1/4"></div>
+
+      <div className="flex flex-col gap-6 md:flex-row">
+        <div className="w-2/4 h-64 bg-gray-200 rounded sm:h-80 lg:w-1/2"></div>
+
+        <div className="flex-1">
+          <div className="h-8 bg-gray-200 rounded w-2/3 mb-4 sm:w-3/4"></div>
+
+          <div className="h-6 bg-gray-200 rounded w-1/2 mb-4 sm:w-1/4"></div>
+
+          <div className="space-y-2">
+            <div className="h-4 bg-gray-200 rounded w-full"></div>
+            <div className="h-4 bg-gray-200 rounded w-full"></div>
+            <div className="h-4 bg-gray-200 rounded w-3/4"></div>
+          </div>
+
+          <div className="mt-6 space-y-2">
+            <div className="h-4 bg-gray-200 rounded w-1/2 sm:w-1/4"></div>
+            <div className="h-4 bg-gray-200 rounded w-1/3 sm:w-1/6"></div>
+          </div>
+
+          <div className="mt-6 space-y-2">
+            <div className="h-4 bg-gray-200 rounded w-1/3 sm:w-1/4"></div>
+            <div className="flex gap-4 mt-2">
+              <div className="h-10 w-10 bg-gray-200 rounded-full"></div>
+              <div className="h-10 w-10 bg-gray-200 rounded-full"></div>
             </div>
           </div>
         </div>
