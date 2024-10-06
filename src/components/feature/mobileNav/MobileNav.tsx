@@ -12,7 +12,8 @@ const MobileNav: FC<PropTypes> = ({ isOpen, setIsOpen }) => {
 
     if (
       target.classList.contains(`close-icon`) ||
-      target.classList.contains("mobileNav")
+      target.classList.contains("mobileNav") ||
+      target.tagName == "A"
     ) {
       setIsOpen(false);
     }

@@ -2,31 +2,37 @@ import { useGetProductQuery } from "@/redux/api/products-api";
 import { FC, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import SinglePageCarousel from "@/components/singlePageCarousel/SinglePageCarousel";
+import SinglePageCarousel from "@/components/spa/singlePageCarousel/SinglePageCarousel";
 
-import { countStars } from "@/components/product/Product";
+import { countStars } from "@/components/feature/product/Product";
 
 import { BsChevronRight } from "react-icons/bs";
 
+interface CarouselImgsTypes {
+  images: string[];
+  color: string;
+}
+
 const SingleProduct: FC = () => {
   const { id } = useParams();
-  const { data, isFetching } = useGetProductQuery({ id });
-  const [product, setProduct] = useState(data);
-  const [carouselImgs, setCarouselImgs] = useState([]);
+  const { data, isLoading, isFetching } = useGetProductQuery({ id });
+  const [product, setProduct] = useState(data?.record[0]);
+  const [carouselImgs, setCarouselImgs] = useState<CarouselImgsTypes>();
   const [additionalInfo, setAdditionalInfo] = useState<JSX.Element>();
 
   useEffect(() => {
     if (data) {
-      console.log(data);
+      console.log(data.record[0]);
 
-      setProduct(data);
-      setCarouselImgs(data?.images[0].images);
-      let infoHeadings = Object.keys(data.additional_infos);
+      setProduct(data?.record[0]);
+      setCarouselImgs(data?.record[0]?.images[0]);
+
+      let infoHeadings = Object.keys(data?.record[0]?.additional_infos);
 
       setAdditionalInfo(
-        <div className="mt-4">
+        <div className="mt-4 grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2">
           {infoHeadings.map((key, idx) => {
-            let keys = Object.keys(data.additional_infos[key]);
+            let keys = Object.keys(data?.record[0]?.additional_infos[key]);
 
             return (
               <div key={idx}>
@@ -36,8 +42,8 @@ const SingleProduct: FC = () => {
                     if (item == "unit") return;
                     return (
                       <p className="text-xl" key={idx}>
-                        {item}: {data.additional_infos[key][item]}{" "}
-                        {data.additional_infos[key]["unit"]}
+                        {item}: {data?.record[0]?.additional_infos[key][item]}{" "}
+                        {data?.record[0]?.additional_infos[key]["unit"]}
                       </p>
                     );
                   })}
@@ -48,26 +54,26 @@ const SingleProduct: FC = () => {
         </div>
       );
     }
-  }, [isFetching]);
+  }, [isLoading]);
 
   const changeColor = (name: string) => {
     let currentImgs = [];
     currentImgs = product.images.filter(
       (item: { color: string }) => item.color == name
     );
-    setCarouselImgs(currentImgs[0].images);
+    setCarouselImgs(currentImgs[0]);
   };
 
-  return data ? (
+  return data?.record[0] ? (
     <div className="singleProduct wrapper mb-5">
       <p className="my-5 text-sm text-[#605F5F]">
         Home &nbsp;{">"}&nbsp; Shop &nbsp;{">"}&nbsp;{" "}
         {product?.category.primary} &nbsp;
         {">"}&nbsp; {product?.title}
       </p>
-      <div className="singleProduct__top flex-col md:flex-row flex-center items-start justify-between md:gap-8">
-        <div className="singleProduct__top--images border min-h- w-full md:w-3/6 lg:w-2/4">
-          <SinglePageCarousel images={carouselImgs} />
+      <div className="singleProduct__top flex-col md:flex-row flex-center items-start justify-between gap-4 md:gap-8">
+        <div className="singleProduct__top--images p-3 border min-h- w-full md:w-3/6 lg:w-2/4">
+          <SinglePageCarousel images={carouselImgs?.images} />
         </div>
         <div className="singleProduct__top--texts flex-grow self-stretch">
           <div className="flex items-center gap-3">
@@ -102,7 +108,8 @@ const SingleProduct: FC = () => {
           <div className="additionalInfo">{additionalInfo}</div>
           <div className="colors mt-4">
             <h4 className="flex-center justify-start gap-2 text-[#6C7275] font-[500]">
-              Choose colors <BsChevronRight />
+              Choose colors <BsChevronRight />{" "}
+              <span>{carouselImgs?.color}</span>
             </h4>
             <div className="flex flex-wrap gap-2 mt-2">
               {product?.colors.map(

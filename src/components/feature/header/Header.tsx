@@ -70,7 +70,7 @@ const Header = () => {
             {/* )} */}
           </Link>
           <RiMenu5Line
-            className="md:hidden text-2xl sm:text-3xl"
+            className="cursor-pointer md:hidden text-2xl sm:text-3xl"
             onClick={() => setIsOpen((prev) => !prev)}
           />
         </div>

@@ -1,5 +1,9 @@
 import { api } from "./index";
 
+interface FinalData {
+  record: Product[];
+}
+
 // Define the structure for a Product
 interface Product {
   id: number;
@@ -25,16 +29,22 @@ interface UpdateProductBody {
 
 export const productsApi = api.injectEndpoints({
   endpoints: (build) => ({
-    getProducts: build.query<Product[], GetProductsParams>({
+    getProducts: build.query<FinalData, GetProductsParams>({
       query: (params) => ({
-        url: "/products",
+        url: "",
         params,
+        headers: {
+          "X-JSON-Path": "$.products[*]",
+        },
       }),
       providesTags: ["Products"],
     }),
     getProduct: build.query({
       query: ({ id }) => ({
-        url: `/products/${id}`,
+        url: "",
+        headers: {
+          "X-JSON-Path": `$..products[?(@.id==${id})]`,
+        },
       }),
       providesTags: ["Products"],
     }),

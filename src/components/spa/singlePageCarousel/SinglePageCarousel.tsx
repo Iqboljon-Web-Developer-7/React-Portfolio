@@ -15,7 +15,7 @@ import "./styles.scss";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 interface SinglePagePropTypes {
-  images: string[];
+  images: string[] | undefined;
 }
 
 import Zoom from "react-medium-image-zoom";
@@ -50,6 +50,7 @@ const SinglePageCarousel: FC<SinglePagePropTypes> = ({ images }) => {
         watchSlidesProgress={true}
         modules={[FreeMode, Navigation, Thumbs]}
         className="mySwiper"
+        id="secondSwiper"
       >
         {images?.map((img, idx) => (
           <SwiperSlide

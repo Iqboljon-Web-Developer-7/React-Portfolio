@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Header from "@/components/header/Header";
+import Header from "../feature/header/Header";
 
 import { Outlet } from "react-router-dom";
 

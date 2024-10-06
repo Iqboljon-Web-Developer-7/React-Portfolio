@@ -15,12 +15,16 @@ const baseQuery: BaseQueryFn<
 > = async (args, api, extraOptions) => {
   const { dispatch } = api;
   const rawBaseQuery = fetchBaseQuery({
-    baseUrl: "https://66f115e341537919154f732a.mockapi.io", // o'zgaradi
+    baseUrl: "https://api.jsonbin.io/v3/b/67024f68acd3cb34a8920fb3",
     prepareHeaders: (headers) => {
-      const token = localStorage.getItem("x-auth-token"); // o'zgaradi
+      const token = localStorage.getItem("x-auth-token");
       if (token) {
         headers.set("Authorization", `Bearer ${token}`);
       }
+      headers.set(
+        "X-Master-Key",
+        "$2a$10$.vg2bZmuax/qqiu9DJyk.uwTjcLnUITl8AW/avzdSi8vzDTQb61da"
+      );
       return headers;
     },
   });

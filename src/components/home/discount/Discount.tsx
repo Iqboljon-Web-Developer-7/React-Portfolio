@@ -9,7 +9,11 @@ const Discount = () => {
   return (
     <section className="max-w-screen-2xl mx-auto discount flex-center flex-col sm:flex-row">
       <div className="discount__img sm:w-1/2">
-        <img src={discountImg} alt="discount home interier img" />
+        <img
+          className="min-h-56"
+          src={discountImg}
+          alt="discount home interier img"
+        />
       </div>
       <div className="discount__info bg-[#F3F5F7] self-stretch flex-center flex-col items-start p-10 sm:p-0 sm:pl-[8%] sm:pr-[3%]">
         <p className="discount__info--title text-sm md:text-base font-semibold text-[#377DFF]">

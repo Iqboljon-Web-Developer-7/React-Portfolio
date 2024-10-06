@@ -17,14 +17,15 @@ import "./styles.scss";
 
 // import required modules
 import { Scrollbar } from "swiper/modules";
-import ProductCard from "../product/Product";
+import ProductCard from "../../feature/product/Product";
 
 // Types
 import { ProductPropTypes } from "@/types/product";
-import { log } from "console";
 
 interface DataType {
-  data: ProductPropTypes[];
+  data: {
+    record: ProductPropTypes[];
+  };
 }
 const NewProducts = () => {
   const { data } = useGetProductsQuery<DataType>({});
@@ -70,11 +71,27 @@ const NewProducts = () => {
         className="mySwiper mt-5"
         style={{ paddingLeft: `${paddingL}px` }}
       >
-        {data?.map((product: ProductPropTypes, idx: number) => (
-          <SwiperSlide key={idx} className="product">
-            <ProductCard product={product} />
-          </SwiperSlide>
-        ))}
+        {data ? (
+          data?.record?.map((product: ProductPropTypes, idx: number) => (
+            <SwiperSlide key={idx} className="product">
+              <ProductCard product={product} />
+            </SwiperSlide>
+          ))
+        ) : (
+          <div className="flex md:grid grid-cols-4 gap-3">
+            {new Array(4).fill(4).map((_, idx) => (
+              <div
+                key={idx}
+                className="animate-pulse p-4 w-2/4 sm:w-1/3 flex-shrink-0 md:w-full h-80 bg-gray-200 rounded-lg"
+              >
+                <div className="h-48 bg-gray-300 mb-4 rounded-md"></div>
+                <div className="h-4 bg-gray-300 rounded-md mb-2"></div>
+                <div className="h-4 bg-gray-300 rounded-md mb-2"></div>
+                <div className="h-4 bg-gray-300 rounded-md"></div>
+              </div>
+            ))}
+          </div>
+        )}
       </Swiper>
     </section>
   );

@@ -1,10 +1,10 @@
-import React, { FC } from "react";
+import { FC } from "react";
 
-import HomeCarousel from "@/components/homeCarousel/HomeCarousel";
-import NewProducts from "@/components/newProducts/NewProducts";
-import Services from "@/components/services/Services";
-import SimplyUnique from "@/components/simplyUnique/SimplyUnique";
-import Discount from "@/components/discount/Discount";
+import HomeCarousel from "@/components/home/homeCarousel/HomeCarousel";
+import NewProducts from "@/components/home/newProducts/NewProducts";
+import Services from "@/components/home/services/Services";
+import SimplyUnique from "@/components/home/simplyUnique/SimplyUnique";
+import Discount from "@/components/home/discount/Discount";
 
 const Home: FC = (): JSX.Element => {
   return (
