@@ -21,6 +21,7 @@ import ProductCard from "../../feature/product/Product";
 
 // Types
 import { ProductPropTypes } from "@/types/product";
+import StyledLink from "@/components/feature/styledLink/StyledLink";
 
 interface DataType {
   data: {
@@ -55,12 +56,7 @@ const NewProducts = () => {
         className="newProducts__info wrapper flex items-end justify-between"
       >
         <h2 className="w-[4ch] text-4xl leading-10">New Arrival</h2>
-        <Link
-          to={"/"}
-          className="flex-center gap-3 underline underline-offset-4"
-        >
-          More Products <GoArrowRight />
-        </Link>
+        <StyledLink to={"/products"} title="More Products" />
       </div>
       <Swiper
         slidesPerView={"auto"}

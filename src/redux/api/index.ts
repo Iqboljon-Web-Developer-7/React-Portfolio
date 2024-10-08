@@ -15,7 +15,7 @@ const baseQuery: BaseQueryFn<
 > = async (args, api, extraOptions) => {
   const { dispatch } = api;
   const rawBaseQuery = fetchBaseQuery({
-    baseUrl: "https://api.jsonbin.io/v3/b/67024f68acd3cb34a8920fb3",
+    baseUrl: "https://api.jsonbin.io/v3/b",
     prepareHeaders: (headers) => {
       const token = localStorage.getItem("x-auth-token");
       if (token) {
@@ -43,6 +43,6 @@ const baseQueryWithRetry = retry(baseQuery, { maxRetries: 1 });
 export const api = createApi({
   reducerPath: "myApi",
   baseQuery: baseQueryWithRetry,
-  tagTypes: ["Users", "Products"], // o'zgaradi
+  tagTypes: ["Users", "Products", "Articles"], // o'zgaradi
   endpoints: () => ({}),
 });

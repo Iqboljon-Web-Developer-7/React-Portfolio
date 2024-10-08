@@ -3,6 +3,7 @@ import "./ProductCard.scss";
 import { IoStar, IoStarOutline } from "react-icons/io5";
 import { ProductPropTypes } from "@/types/product";
 import { Link } from "react-router-dom";
+import "./ProductCard.scss";
 
 interface Product {
   product: ProductPropTypes;

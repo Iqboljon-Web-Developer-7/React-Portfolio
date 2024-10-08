@@ -31,7 +31,7 @@ export const productsApi = api.injectEndpoints({
   endpoints: (build) => ({
     getProducts: build.query<FinalData, GetProductsParams>({
       query: (params) => ({
-        url: "",
+        url: "/67024f68acd3cb34a8920fb3",
         params,
         headers: {
           "X-JSON-Path": "$.products[*]",
@@ -41,35 +41,35 @@ export const productsApi = api.injectEndpoints({
     }),
     getProduct: build.query({
       query: ({ id }) => ({
-        url: "",
+        url: "/67024f68acd3cb34a8920fb3",
         headers: {
           "X-JSON-Path": `$..products[?(@.id==${id})]`,
         },
       }),
       providesTags: ["Products"],
     }),
-    updateProduct: build.mutation<
-      Product,
-      { id: number; body: UpdateProductBody }
-    >({
-      query: ({ id, body }) => ({
-        url: `/products/${id}`,
-        method: "PUT",
-        body,
-      }),
-    }),
-    deleteProduct: build.mutation<void, { id: number }>({
-      query: ({ id }) => ({
-        url: `/products/${id}`,
-        method: "DELETE",
-      }),
-      invalidatesTags: ["Products"],
-    }),
+    // updateProduct: build.mutation<
+    //   Product,
+    //   { id: number; body: UpdateProductBody }
+    // >({
+    //   query: ({ id, body }) => ({
+    //     url: `/products/${id}`,
+    //     method: "PUT",
+    //     body,
+    //   }),
+    // }),
+    // deleteProduct: build.mutation<void, { id: number }>({
+    //   query: ({ id }) => ({
+    //     url: `/products/${id}`,
+    //     method: "DELETE",
+    //   }),
+    //   invalidatesTags: ["Products"],
+    // }),
   }),
 });
 export const {
   useGetProductsQuery,
   useGetProductQuery,
-  useUpdateProductMutation,
-  useDeleteProductMutation,
+  // useUpdateProductMutation,
+  // useDeleteProductMutation,
 } = productsApi;

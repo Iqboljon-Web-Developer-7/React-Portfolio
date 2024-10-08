@@ -1,0 +1,39 @@
+/* RangeSlider.scss */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+
+  &::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    background: #ddd;
+    border-radius: 10px;
+  }
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #7c3aed;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  &::-moz-range-track {
+    background: #ddd;
+    border-radius: 10px;
+    height: 4px;
+  }
+
+  &::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #7c3aed;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

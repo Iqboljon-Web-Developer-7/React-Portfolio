@@ -4,18 +4,19 @@ import discountImg from "@/assets/discount/discount-sale.png";
 import { Link } from "@mui/material";
 
 import { BsChevronRight } from "react-icons/bs";
+import StyledLink from "@/components/feature/styledLink/StyledLink";
 
 const Discount = () => {
   return (
-    <section className="max-w-screen-2xl mx-auto discount flex-center flex-col sm:flex-row">
-      <div className="discount__img sm:w-1/2">
+    <section className="max-w-screen-2xl w-screen mx-auto discount flex-center flex-col sm:flex-row">
+      <div className="discount__img flex-grow flex-shrink-[2]">
         <img
           className="min-h-56"
           src={discountImg}
           alt="discount home interier img"
         />
       </div>
-      <div className="discount__info bg-[#F3F5F7] self-stretch flex-center flex-col items-start p-10 sm:p-0 sm:pl-[8%] sm:pr-[3%]">
+      <div className="discount__info bg-[#F3F5F7] self-stretch flex-center flex-col items-start p-10 sm:p-0 sm:pl-[8%] sm:pr-[3%] flex-grow-[2]">
         <p className="discount__info--title text-sm md:text-base font-semibold text-[#377DFF]">
           SALE UP TO 35% OFF
         </p>
@@ -31,13 +32,7 @@ const Discount = () => {
           It’s more affordable than ever to give every room in your home a
           stylish makeover
         </p>
-        <a
-          href="#"
-          className="mt-3 sm:mt-1 lg:mt-6 flex items-center justify-center gap-3 underline underline-offset-4"
-        >
-          Shop Now <BsChevronRight />
-        </a>
-        {/* <Link to={"/discount"}></Link> */}
+        <StyledLink to={"/discount"} title="Shop Now" />
       </div>
     </section>
   );
