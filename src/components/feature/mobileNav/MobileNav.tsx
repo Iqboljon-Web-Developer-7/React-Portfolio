@@ -1,4 +1,4 @@
-import React, { FC, memo } from "react";
+import React, { FC, memo, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 interface PropTypes {
@@ -7,6 +7,12 @@ interface PropTypes {
 }
 
 const MobileNav: FC<PropTypes> = ({ isOpen, setIsOpen }) => {
+  useEffect(() => {
+    isOpen
+      ? (document.body.style.overflow = "hidden")
+      : (document.body.style.overflow = "auto");
+  }, [isOpen]);
+
   const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     const target = e.target as HTMLDivElement;
 

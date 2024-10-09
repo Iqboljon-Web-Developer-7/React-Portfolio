@@ -30,11 +30,29 @@ module.exports = {
   					inset: '0 -120% 0 0',
   					display: 'none'
   				}
+  			},
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
   			}
   		},
   		animation: {
   			fadeIn: 'fadeIn 0.4s ease-out forwards',
-  			fadeOut: 'fadeOut 0.4s ease-out forwards'
+  			fadeOut: 'fadeOut 0.4s ease-out forwards',
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

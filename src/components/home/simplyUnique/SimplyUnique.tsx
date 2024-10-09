@@ -8,6 +8,7 @@ import { GoArrowRight } from "react-icons/go";
 import simpleImg1 from "@/assets/simple/simple-1.png";
 import simpleImg2 from "@/assets/simple/simple-2.png";
 import simpleImg3 from "@/assets/simple/simple-3.png";
+import StyledLink from "@/components/feature/styledLink/StyledLink";
 
 const SimplyUnique: FC = (): JSX.Element => {
   return (
@@ -33,12 +34,7 @@ const SimplyUnique: FC = (): JSX.Element => {
             style={{ backgroundImage: `url(${simpleImg1})` }}
           >
             <h3 className="text-3xl tracking-wide">Living Room</h3>
-            <Link
-              to={"/"}
-              className="mt-3 flex-center justify-start gap-2 underline underline-offset-4"
-            >
-              Shop now <GoArrowRight />
-            </Link>
+            <StyledLink to={"/"} title="Shop Now"></StyledLink>
           </div>
         </div>
         <div className="simple__proucts--item min-h-[20rem]">
@@ -47,12 +43,7 @@ const SimplyUnique: FC = (): JSX.Element => {
             style={{ backgroundImage: `url(${simpleImg2})` }}
           >
             <h3 className="text-3xl tracking-wide">Bedroom</h3>
-            <Link
-              to={"/"}
-              className="mt-3 flex-center justify-start gap-2 underline underline-offset-4"
-            >
-              Shop now <GoArrowRight />
-            </Link>
+            <StyledLink to={"/"} title="Shop Now"></StyledLink>
           </div>
         </div>
         <div className="simple__proucts--item min-h-[20rem]">
@@ -61,12 +52,7 @@ const SimplyUnique: FC = (): JSX.Element => {
             style={{ backgroundImage: `url(${simpleImg3})` }}
           >
             <h3 className="text-3xl tracking-wide">Kitchen</h3>
-            <Link
-              to={"/"}
-              className="mt-3 flex-center justify-start gap-2 underline underline-offset-4"
-            >
-              Shop now <GoArrowRight />
-            </Link>
+            <StyledLink to={"/"} title="Shop Now"></StyledLink>
           </div>
         </div>
       </div>

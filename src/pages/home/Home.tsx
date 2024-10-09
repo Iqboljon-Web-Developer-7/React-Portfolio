@@ -5,7 +5,9 @@ import NewProducts from "@/components/home/newProducts/NewProducts";
 import Services from "@/components/home/services/Services";
 import SimplyUnique from "@/components/home/simplyUnique/SimplyUnique";
 import Discount from "@/components/home/discount/Discount";
-import Articles from "@/components/feature/articles/Articles";
+import Blogs from "@/components/feature/blogs/Blogs";
+import Subscribe from "@/components/feature/subscribe/Subscribe";
+import Footer from "@/components/feature/footer/Footer";
 
 const Home: FC = (): JSX.Element => {
   return (
@@ -15,7 +17,9 @@ const Home: FC = (): JSX.Element => {
       <NewProducts />
       <Services />
       <Discount />
-      <Articles />
+      <Blogs />
+      <Subscribe />
+      <Footer />
     </main>
   );
 };
