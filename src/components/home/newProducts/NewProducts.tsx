@@ -31,23 +31,29 @@ interface DataType {
 const NewProducts = () => {
   const { data } = useGetProductsQuery<DataType>({});
 
-  const [paddingL, setPadingL] = useState(0);
+  const [paddingL, setPaddingL] = useState(0);
 
   const productInfoContainer = useRef<HTMLDivElement | null>(null);
+  const productScrollbar = useRef(null);
   useEffect(() => {
     const resizeObserver = new ResizeObserver((entries) => {
       for (let entry of entries) {
         const target = entry.target as HTMLDivElement;
-        setPadingL(target.offsetLeft);
+        setPaddingL(target.offsetLeft);
       }
     });
 
     let container = productInfoContainer.current;
+    let scrollBar = productScrollbar.current;
 
     if (container) {
       resizeObserver.observe(container);
+      let scrollBarDom = document?.querySelector(
+        ".swiper-scrollbar"
+      ) as HTMLDivElement;
+      scrollBarDom.style.marginLeft = `${paddingL}px`;
     }
-  }, []);
+  }, [paddingL]);
 
   return (
     <section className="newProducts mt-12">
@@ -55,15 +61,19 @@ const NewProducts = () => {
         ref={productInfoContainer}
         className="newProducts__info wrapper flex items-end justify-between"
       >
-        <h2 className="w-[4ch] text-4xl leading-10">New Arrival</h2>
+        <h2 className="w-[4ch] text-[2.5rem] leading-[1.1] font-medium font-Poppins">
+          New Arrival
+        </h2>
         <StyledLink to={"/products"} title="More Products" />
       </div>
       <Swiper
+        ref={productScrollbar}
         slidesPerView={"auto"}
         scrollbar={{
           hide: false,
         }}
         modules={[Scrollbar]}
+        id="productsSwiper"
         className="mySwiper mt-5"
         style={{ paddingLeft: `${paddingL}px` }}
       >

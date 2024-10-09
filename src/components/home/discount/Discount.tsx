@@ -16,15 +16,15 @@ const Discount = () => {
           alt="discount home interier img"
         />
       </div>
-      <div className="discount__info bg-[#F3F5F7] self-stretch flex-center flex-col items-start p-10 sm:p-0 sm:pl-[8%] sm:pr-[3%] flex-grow-[2]">
+      <div className="discount__info bg-[#F3F5F7] self-stretch flex-center flex-col items-start p-10 sm:p-0 sm:pl-[8%] sm:pr-[1%] flex-grow-[2]">
         <p className="discount__info--title text-sm md:text-base font-semibold text-[#377DFF]">
           SALE UP TO 35% OFF
         </p>
-        <div className="my-3 sm:my-1 lg:my-4 grid gap-1 text-3xl sm:text-[1.25rem] md:text-[2rem] lg:text-[2.5rem]">
+        <div className="my-3 sm:my-1 lg:my-4 grid gap-1 text-3xl sm:text-[1.3rem] md:text-[2rem] lg:text-[2.5rem]">
           <h3 className="text-[#141718] leading-6 sm:leading-5 md:leading-9">
             HUNDREDS of
           </h3>
-          <h3 className="text-[#141718] leading-6 sm:leading-6 md:leading-9">
+          <h3 className="text-[#141718] leading-6 sm:leading-5 md:leading-9">
             New lower prices!
           </h3>
         </div>

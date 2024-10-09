@@ -45,29 +45,43 @@ const BlogComponent: React.FC = () => {
             {article?.title}
           </h1>
           <p className="text-sm sm:text-base text-gray-500 flex-center gap-2 justify-start">
-            <CiCalendar className="" /> {article?.date}
+            <CiCalendar />{" "}
+            {article ? (
+              article?.date
+            ) : (
+              <span className="min-h-4 min-w-32 bg-gray-300 animate-pulse rounded-xl"></span>
+            )}
           </p>
         </div>
 
-        {article?.sections?.map((section, index) => (
-          <div key={index} className="mb-8">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-2">
-              {section.heading}
-            </h2>
-            <p className="text-gray-700 mb-4">{section?.paragraph}</p>
+        {article ? (
+          article?.sections?.map((section, index) => (
+            <div key={index} className="mb-8">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-2">
+                {section.heading}
+              </h2>
+              <p className="text-gray-700 mb-4">{section?.paragraph}</p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {section?.images.map((image, imgIndex) => (
-                <img
-                  key={imgIndex}
-                  src={image}
-                  alt={section.heading}
-                  className="w-full h-auto object-cover rounded-lg shadow-md"
-                />
-              ))}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {section?.images.map((image, imgIndex) => (
+                  <img
+                    key={imgIndex}
+                    src={image}
+                    alt={section.heading}
+                    className="w-full h-full object-cover rounded-lg shadow-md"
+                  />
+                ))}
+              </div>
             </div>
+          ))
+        ) : (
+          <div className="flex flex-col items-center animate-pulse justify-center h-full w-full bg-gray-200">
+            <div className="w-full h-16 animate-pulse delay-100 bg-gray-300 rounded-md mb-4"></div>
+            <div className="w-full h-48 animate-pulse delay-200 bg-gray-300 rounded-md mb-4"></div>
+            <div className="w-full h-12 animate-pulse delay-300 bg-gray-300 rounded-md mb-4"></div>
+            <div className="w-full h-12 animate-pulse delay-500 bg-gray-300 rounded-md mb-4"></div>
           </div>
-        ))}
+        )}
       </div>
     </div>
   );

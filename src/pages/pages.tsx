@@ -11,7 +11,7 @@ import BlogComponent from "./blog/Blog";
 
 const Pages = () => {
   return (
-    <>
+    <main className="font-Inter">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="" element={<Home />} />
@@ -21,7 +21,7 @@ const Pages = () => {
           <Route path="/blogs/:id" element={<BlogComponent />} />
         </Route>
       </Routes>
-    </>
+    </main>
   );
 };
 

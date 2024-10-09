@@ -35,7 +35,7 @@ const Header = () => {
     <header
       className={`header-wrapper sticky top-0 mx-auto py-5 px-1 xs:px-2 duration-200 ${
         isFixed
-          ? "animate-fade-in-top-1 bg-[#ffffff77] shadow-md"
+          ? "animate-fade-in-top-1 bg-[#ffffffbb] shadow-md"
           : "z-20 bg-white border-b"
       } backdrop-blur-sm z-20`}
     >
