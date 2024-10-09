@@ -18,10 +18,28 @@ const Shop = () => {
         img={image}
         desc={"Let’s design the place you always imagined."}
       />
-      <div className="shop__main grid grid-cols-[3fr_6fr] mt-[3.75rem]">
+      <div className="shop__main grid grid-cols-[2fr_6fr] mt-[3.75rem]">
         <div className="shop__main--filter">
-          <div className="filter__info flex-center justify-start text-xl gap-4 font-medium">
-            <VscSettings /> Filter
+          <div className="filter__info">
+            <h3 className="flex-center justify-start text-xl gap-4 font-medium">
+              <VscSettings /> Filter
+            </h3>
+            <div className="filter__categories mt-8">
+              <h3 className="font-medium">CATEGORIES</h3>
+              <div className="filter__categories--wrapper max-h-44 overflow-auto flex flex-col gap-3 mt-4">
+                {new Array(8).fill(8).map((item) => (
+                  <span>category item</span>
+                ))}
+              </div>
+            </div>
+            <div className="filter__price mt-8">
+              <h3 className="font-medium">PRICE</h3>
+              <div className="filter__price--wrapper max-h-44 overflow-auto flex flex-col gap-3 mt-4">
+                {new Array(8).fill(8).map((item) => (
+                  <span>category item</span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
         <div className="shop__main--products">1</div>

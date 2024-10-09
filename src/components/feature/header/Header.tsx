@@ -16,6 +16,15 @@ import { FaOpencart } from "react-icons/fa";
 import { RiMenu5Line } from "react-icons/ri";
 import CartIcon from "@/assets/header/cart-icon.svg";
 
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+
 const Header = () => {
   // Mobile header
   const [isOpen, setIsOpen] = useState(false);
@@ -59,16 +68,25 @@ const Header = () => {
             <LuUserCircle />
           </Link>
 
-          <Link
-            to={"/cart"}
-            className="text-green-800 animate-fade-in-top-2 flex items-center justify-center gap-1"
-          >
-            <img src={CartIcon} /> {/* {cart.length > 0 && ( */}
-            <span className="inset-[-.3rem_-.3rem_auto_auto] h-5 min-w-5 text-[.78rem] rounded-full flex items-center justify-center text-slate-200 bg-black">
-              {/* {cart?.length} */}2
-            </span>
-            {/* )} */}
-          </Link>
+          <Sheet>
+            <SheetTrigger>
+              <div className="text-green-800 animate-fade-in-top-2 flex items-center justify-center gap-1">
+                <img src={CartIcon} /> {/* {cart.length > 0 && ( */}
+                <span className="inset-[-.3rem_-.3rem_auto_auto] h-5 min-w-5 text-[.78rem] rounded-full flex items-center justify-center text-slate-200 bg-black">
+                  {/* {cart?.length} */}2
+                </span>
+              </div>
+            </SheetTrigger>
+            <SheetContent>
+              <SheetHeader>
+                <SheetTitle>Are you absolutely sure?</SheetTitle>
+                <SheetDescription>
+                  This action cannot be undone. This will permanently delete
+                  your account and remove your data from our servers.
+                </SheetDescription>
+              </SheetHeader>
+            </SheetContent>
+          </Sheet>
           <RiMenu5Line
             className="cursor-pointer md:hidden text-2xl sm:text-3xl"
             onClick={() => setIsOpen((prev) => !prev)}

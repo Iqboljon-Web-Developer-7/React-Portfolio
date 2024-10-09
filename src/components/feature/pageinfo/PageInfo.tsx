@@ -10,7 +10,7 @@ interface pageTypes {
 const PageInfo = ({ path, title, img, desc }: pageTypes) => {
   return (
     <div
-      className="min-h-96 bg-red-400 bg-cover bg-no-repeat flex-center text-center"
+      className="min-h-96 bg-cover bg-no-repeat flex-center text-center"
       style={{ backgroundImage: `url(${img})` }}
     >
       <div className="info flex-center flex-col gap-2">
