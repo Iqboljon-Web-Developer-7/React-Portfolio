@@ -24,23 +24,16 @@ To run this project locally:
 
 Clone the repository:
 
-bash
 Copy code
 git clone https://github.com/yourusername/ecommerce-portfolio.git
 Navigate to the project directory:
 
-bash
-Copy code
 cd ecommerce-portfolio
 Install the dependencies:
 
-bash
-Copy code
 npm install
 Start the development server:
 
-bash
-Copy code
 npm start
 The app will be running at http://localhost:5173
 
