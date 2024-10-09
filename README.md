@@ -34,7 +34,7 @@ Install the dependencies:
 npm install
 Start the development server:
 
-npm start
+npm run dev
 The app will be running at http://localhost:5173
 
 ## License
