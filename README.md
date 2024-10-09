@@ -1,4 +1,4 @@
-#E-Commerce Portfolio
+# E-Commerce Portfolio
 
 This is a fully responsive e-commerce website built using React, Redux Toolkit (RTK), Ant Design (AntD), and Material-UI (MUI). This project serves as a portfolio to showcase my skills in web development, API integration, and UI/UX design for e-commerce platforms.
 
