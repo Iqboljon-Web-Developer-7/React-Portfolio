@@ -12,7 +12,7 @@ import { RiSearch2Line } from "react-icons/ri";
 import { LuUserCircle } from "react-icons/lu";
 
 // Icons
-import { FaOpencart } from "react-icons/fa";
+// import { FaOpencart } from "react-icons/fa";
 import { RiMenu5Line } from "react-icons/ri";
 import CartIcon from "@/assets/header/cart-icon.svg";
 
@@ -56,22 +56,30 @@ const Header = () => {
     <header
       className={`header-wrapper sticky top-0 mx-auto py-5 px-1 xs:px-2 duration-200 ${
         isFixed
-          ? "animate-fade-in-top-1 bg-[#ffffffbb] shadow-md"
-          : "z-20 bg-white border-b"
+          ? "animate-fade-in-top-1 bg-[#ffffffbb] dark:bg-[#000000bb] shadow-md"
+          : "z-20 bg-white dark:bg-black border-b"
       } backdrop-blur-sm z-20`}
     >
       <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
       <div className="wrapper flex justify-between items-center gap-2">
         <div className="heaer__logo">
           <Link to={"/"}>
-            <img src={websiteLogo} alt="website logo" />
+            <img src={websiteLogo} alt="website logo" className="dark:invert" />
           </Link>
         </div>
         <div className="header__links text-sm text-slate-400 opacity-0 w-0 md:opacity-100 md:w-auto md:flex items-center justify-center gap-5">
-          <NavLink to={"/"}>Home</NavLink>
-          <NavLink to={"/shop"}>Shop</NavLink>
-          <NavLink to={"/product"}>Product</NavLink>
-          <NavLink to={"/contact"}>Contact Us</NavLink>
+          <NavLink className="dark:text-slate-400" to={"/"}>
+            Home
+          </NavLink>
+          <NavLink className="dark:text-slate-400" to={"/shop"}>
+            Shop
+          </NavLink>
+          <NavLink className="dark:text-slate-400" to={"/product"}>
+            Product
+          </NavLink>
+          <NavLink className="dark:text-slate-400" to={"/contact"}>
+            Contact Us
+          </NavLink>
         </div>
 
         <div className="header__icons flex items-center justify-center gap-4 text-2xl">
@@ -82,9 +90,10 @@ const Header = () => {
 
           <Sheet>
             <SheetTrigger>
-              <div className="text-green-800 animate-fade-in-top-2 flex items-center justify-center gap-1">
-                <img src={CartIcon} /> {/* {cart.length > 0 && ( */}
-                <span className="inset-[-.3rem_-.3rem_auto_auto] h-5 min-w-5 text-[.78rem] rounded-full flex items-center justify-center text-slate-200 bg-black">
+              <div className="animate-fade-in-top-2 flex items-center justify-center gap-1">
+                <img src={CartIcon} className="dark:invert" />{" "}
+                {/* {cart.length > 0 && ( */}
+                <span className="inset-[-.3rem_-.3rem_auto_auto] h-5 min-w-5 text-[.78rem] rounded-full flex items-center justify-center text-slate-200 dark:text-slate-950 bg-black dark:bg-slate-100">
                   {/* {cart?.length} */}2
                 </span>
               </div>

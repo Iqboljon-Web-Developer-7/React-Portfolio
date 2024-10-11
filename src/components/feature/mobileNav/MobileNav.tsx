@@ -32,12 +32,20 @@ const MobileNav: FC<PropTypes> = ({ isOpen, setIsOpen }) => {
       } fixed z-50`}
       onClick={(e) => handleClick(e)}
     >
-      <div className="header__links px-20 text-slate-400 flex justify-center items-center flex-col gap-2 bg-[#ffffff]">
-        <NavLink to={"/"}>Home</NavLink>
-        <NavLink to={"/shop"}>Shop</NavLink>
-        <NavLink to={"/product"}>Product</NavLink>
-        <NavLink to={"/contact"}>Contact Us</NavLink>
-        <span className="absolute inset-[4%_4%_auto_auto] cursor-pointer close-icon text-slate-800">
+      <div className="header__links px-20 text-slate-400 flex justify-center items-center flex-col gap-2 bg-[#eee] dark:bg-[#222]">
+        <NavLink className="dark:text-slate-400" to={"/"}>
+          Home
+        </NavLink>
+        <NavLink className="dark:text-slate-400" to={"/shop"}>
+          Shop
+        </NavLink>
+        <NavLink className="dark:text-slate-400" to={"/product"}>
+          Product
+        </NavLink>
+        <NavLink className="dark:text-slate-400" to={"/contact"}>
+          Contact Us
+        </NavLink>
+        <span className="absolute inset-[4%_4%_auto_auto] cursor-pointer close-icon text-slate-800 dark:text-slate-200">
           X
         </span>
       </div>

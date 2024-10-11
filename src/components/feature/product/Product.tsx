@@ -14,9 +14,9 @@ export const countStars = (n: number): JSX.Element[] => {
   const list: JSX.Element[] = [];
   for (let i = 0; i < 5; i++) {
     if (i < n) {
-      list.push(<IoStar key={i} />);
+      list.push(<IoStar key={i} className="dark:text-slate-100" />);
     } else {
-      list.push(<IoStarOutline key={i} />);
+      list.push(<IoStarOutline key={i} className="dark:text-slate-100" />);
     }
   }
   return list;
@@ -49,7 +49,7 @@ const ProductCard: FC<Product> = ({ product }) => {
         onMouseMove={handleMouseMove}
         onMouseLeave={() => setCurrentImage(product?.images[0].images[0])}
       >
-        <span className="status py-1 px-2 text-sm font-medium tracking-widest absolute inset-[4%_auto_auto_4%] bg-white rounded-lg">
+        <span className="status py-1 px-2 text-sm font-medium tracking-widest absolute inset-[4%_auto_auto_4%] bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg">
           {product.status === "New" && "NEW"}
         </span>
         <img

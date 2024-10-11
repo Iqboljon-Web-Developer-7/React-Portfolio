@@ -16,19 +16,19 @@ const Discount = () => {
           alt="discount home interier img"
         />
       </div>
-      <div className="discount__info bg-[#F3F5F7] self-stretch flex-center flex-col items-start p-10 sm:p-0 sm:pl-[8%] sm:pr-[1%] flex-grow-[2]">
+      <div className="discount__info bg-[#F3F5F7] dark:bg-slate-900 text-[#141718] dark:text-slate-100 self-stretch flex-center flex-col items-start p-10 sm:p-0 sm:pl-[8%] sm:pr-[1%] flex-grow-[2]">
         <p className="discount__info--title text-sm md:text-base font-semibold text-[#377DFF]">
           SALE UP TO 35% OFF
         </p>
         <div className="my-3 sm:my-1 lg:my-4 grid gap-1 text-3xl sm:text-[1.3rem] md:text-[2rem] lg:text-[2.5rem]">
-          <h3 className="text-[#141718] leading-6 sm:leading-5 md:leading-9">
+          <h3 className="leading-6 sm:leading-5 md:leading-6 lg:leading-9 mt-2 lg:mt-0">
             HUNDREDS of
           </h3>
-          <h3 className="text-[#141718] leading-6 sm:leading-5 md:leading-9">
+          <h3 className="leading-6 sm:leading-5 md:leading-9">
             New lower prices!
           </h3>
         </div>
-        <p className="text-base sm:text-sm md:text-base lg:text-xl max-w-[28.25rem] text-[#141718] font-light">
+        <p className="text-base sm:text-sm md:text-base lg:text-xl max-w-[28.25rem] font-light">
           It’s more affordable than ever to give every room in your home a
           stylish makeover
         </p>

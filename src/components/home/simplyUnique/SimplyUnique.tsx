@@ -21,13 +21,16 @@ const SimplyUnique: FC = (): JSX.Element => {
           <h2>Simply Better.</h2>
         </div>
         <div className="simple__info--right sm:w-2/4">
-          <p className="font-light leading-[1.8!important] tracking-wide text-slate-500 text-sm lg:text-base">
-            <span className="text-slate-900 font-medium">3legant</span> is a
-            gift & decorations store based in HCMC, Vietnam. Est since 2019.{" "}
+          <p className="font-light leading-[1.8!important] tracking-wide text-slate-500 dark:text-slate-300 text-sm lg:text-base">
+            <span className="text-slate-900 dark:text-slate-200 font-medium">
+              3legant
+            </span>{" "}
+            is a gift & decorations store based in HCMC, Vietnam. Est since
+            2019.{" "}
           </p>
         </div>
       </div>
-      <div className="simple__products mt-10 min-h-[41.5rem] grid md:grid-cols-2 gap-6 font-medium">
+      <div className="simple__products mt-10 min-h-[41.5rem] grid md:grid-cols-2 gap-6 font-medium dark:text-slate-700">
         <div className="simple__proucts--item row-span-2 min-h-[20rem]">
           <div
             className="s-p-i-info h-full bg-center bg-no-repeat bg-cover p-8 sm:p-12"

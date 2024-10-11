@@ -5,5 +5,8 @@
     a.active {
       color: $black;
     }
+    a.active.dark\:text-slate-400:is(.dark *) {
+      color: white;
+    }
   }
 }

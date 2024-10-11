@@ -44,13 +44,17 @@ const NewProducts = () => {
     });
 
     let container = productInfoContainer.current;
-    let scrollBar = productScrollbar.current;
 
     if (container) {
       resizeObserver.observe(container);
       let scrollBarDom = document?.querySelector(
         ".swiper-scrollbar"
       ) as HTMLDivElement;
+      let scrollBarDrag = scrollBarDom?.querySelector(".swiper-scrollbar-drag");
+
+      scrollBarDom.classList.add("dark:bg-slate-600");
+      scrollBarDrag?.classList.add("dark:bg-slate-400");
+
       scrollBarDom.style.marginLeft = `${paddingL}px`;
     }
   }, [paddingL]);
