@@ -7,11 +7,16 @@ import SinglePageCarousel from "@/components/spa/singlePageCarousel/SinglePageCa
 import { countStars } from "@/components/feature/product/Product";
 
 import { BsChevronRight } from "react-icons/bs";
+import EmblaCarousel from "@/components/Carousel/files/EmblaCarousel";
 
 interface CarouselImgsTypes {
   images: string[];
   color: string;
 }
+
+const OPTIONS = {};
+const SLIDE_COUNT = 10;
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const SingleProduct: FC = () => {
   const { id } = useParams();
@@ -71,9 +76,9 @@ const SingleProduct: FC = () => {
         {product?.category.primary} &nbsp;
         {">"}&nbsp; {product?.title}
       </p>
-      <div className="singleProduct__top flex-col md:flex-row flex-center items-start justify-between gap-4 md:gap-8">
-        <div className="singleProduct__top--images border w-full md:w-3/6 lg:w-2/4">
-          <SinglePageCarousel images={carouselImgs?.images} />
+      <div className="singleProduct__top grid md:grid-cols-[6fr_7fr] xl:grid-cols-2 gap-4">
+        <div className="singleProduct__top--images border w-full">
+          <EmblaCarousel images={carouselImgs?.images!} />
         </div>
         <div className="singleProduct__top--texts flex-grow self-stretch">
           <div className="flex items-center gap-3">

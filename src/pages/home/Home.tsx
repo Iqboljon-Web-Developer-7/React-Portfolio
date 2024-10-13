@@ -8,6 +8,7 @@ import Discount from "@/components/home/discount/Discount";
 import Blogs from "@/components/feature/blogs/Blogs";
 import Subscribe from "@/components/feature/subscribe/Subscribe";
 import Footer from "@/components/feature/footer/Footer";
+import EmblaCarousel from "@/components/Carousel/files/EmblaCarousel";
 
 const Home: FC = (): JSX.Element => {
   return (
