@@ -27,5 +27,21 @@
 #productsSwiper::-webkit-scrollbar {
   width: 0;
   height: 0;
-  background-color: red;
+  background-color: transparent;
+}
+#productsSwiper {
+  .swiper-slide {
+    width: 25%;
+    height: 100%;
+    @media (max-width: 58rem) {
+      width: 33.3%;
+    }
+    @media (max-width: 42rem) {
+      width: 50%;
+    }
+    @media (max-width: 24rem) {
+      width: 100%;
+    }
+  }
+  // display: none;
 }

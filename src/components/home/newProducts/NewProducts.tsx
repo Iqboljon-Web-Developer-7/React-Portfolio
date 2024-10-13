@@ -83,7 +83,7 @@ const NewProducts = () => {
       >
         {data ? (
           data?.record?.map((product: ProductPropTypes, idx: number) => (
-            <SwiperSlide key={idx} className="product">
+            <SwiperSlide key={idx} className="product pb-10">
               <ProductCard product={product} />
             </SwiperSlide>
           ))

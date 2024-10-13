@@ -72,7 +72,7 @@ const SingleProduct: FC = () => {
         {">"}&nbsp; {product?.title}
       </p>
       <div className="singleProduct__top flex-col md:flex-row flex-center items-start justify-between gap-4 md:gap-8">
-        <div className="singleProduct__top--images p-3 border min-h- w-full md:w-3/6 lg:w-2/4">
+        <div className="singleProduct__top--images border w-full md:w-3/6 lg:w-2/4">
           <SinglePageCarousel images={carouselImgs?.images} />
         </div>
         <div className="singleProduct__top--texts flex-grow self-stretch">

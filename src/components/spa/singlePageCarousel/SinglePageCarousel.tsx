@@ -35,9 +35,12 @@ const SinglePageCarousel: FC<SinglePagePropTypes> = ({ images }) => {
         className="mySwiper2"
       >
         {images?.map((img, idx) => (
-          <SwiperSlide key={idx}>
+          <SwiperSlide key={idx} id="top-images-carousel">
             <Zoom>
-              <img src={img} />
+              <img
+                src={img}
+                className="w-full h-[24rem!important] object-cover"
+              />
             </Zoom>
           </SwiperSlide>
         ))}
@@ -57,11 +60,7 @@ const SinglePageCarousel: FC<SinglePagePropTypes> = ({ images }) => {
             key={idx}
             className="min-h-[auto!important] cursor-pointer"
           >
-            <img
-              src={img}
-              className="object-cover"
-              style={{ maxHeight: "8rem" }}
-            />
+            <img src={img} className="object-contain h-[6.2rem!important]" />
           </SwiperSlide>
         ))}
       </Swiper>

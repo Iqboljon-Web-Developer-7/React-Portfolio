@@ -6,14 +6,11 @@
       "description": "Buy one or buy a few and make every space more convenient. Light and easy to move with a removable tray top for serving snacks.",
       "price": 199,
       "originalPrice": 300,
-      "discount": {
-        "value": 101,
-        "percentage": 33.67
-      },
+
       "status": "New",
       "category": {
-        "primary": "Living Room",
-        "secondary": "Bedroom"
+        "primary": "Household",
+        "secondary": "Livingroom"
       },
       "sku": "1117",
       "colors": [
@@ -64,7 +61,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "Emily Johnson",
@@ -131,11 +127,7 @@
       "description": "User privacy continues to be our priority in the AI era. With the launch of Galaxy AI on the Galaxy S24 Series, you can rest assured that we will not store or use your personal data for any purpose without your consent.",
       "price": 1100,
       "originalPrice": 1300,
-      "discount": {
-        "value": 200,
-        "percentage": 15.38
-      },
-      "status": "New",
+
       "colors": [
         {
           "name": "Grey",
@@ -150,6 +142,7 @@
           "color": "#000000"
         }
       ],
+      "status": "New",
       "category": {
         "primary": "Phones",
         "secondary": "Electronics"
@@ -187,7 +180,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "Rachel Adams",
@@ -242,7 +234,7 @@
           "unit": "inches"
         },
         "weight": {
-          "value": 8.0,
+          "value": 8,
           "unit": "oz"
         }
       }
@@ -250,13 +242,20 @@
     {
       "id": "3",
       "title": "MacBook Air 13",
-      "description": "Noutbuk Apple MacBook Air 13 M1 8GB/256GB, Gray",
+      "description": "The MacBook Air 13 M1 is Apple's ultra-thin, lightweight laptop, powered by the Apple M1 chip. This innovative chip integrates CPU, GPU, and machine learning technology, providing faster performance",
       "price": 800,
       "originalPrice": 999,
-      "discount": {
-        "value": 199,
-        "percentage": 19.92
-      },
+      "colors": [
+        {
+          "name": "Grey",
+          "color": "#808080"
+        },
+        {
+          "name": "Gold",
+          "color": "#D4AF37"
+        }
+      ],
+
       "status": "New",
       "category": {
         "primary": "Laptops",
@@ -286,7 +285,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "Lily Evans",
@@ -342,7 +340,7 @@
           "unit": "inches"
         },
         "weight": {
-          "value": 8.0,
+          "value": 8,
           "unit": "lbs"
         }
       }
@@ -353,14 +351,25 @@
       "description": "Smartfon Samsung Galaxy A15, 6GB / 128GB, 6.5 Super AMOLED 90 Hz, Dual nano SIM",
       "price": 210,
       "originalPrice": 240,
-      "discount": {
-        "value": 30,
-        "percentage": 12.5
-      },
+      "colors": [
+        {
+          "name": "Ice",
+          "color": "#F0F8FF"
+        },
+        {
+          "name": "Blue",
+          "color": "#0000FF"
+        },
+        {
+          "name": "DarkBlue",
+          "color": "#00008B"
+        }
+      ],
+
       "status": "New",
       "category": {
-        "primary": "Living Room",
-        "secondary": "Bedroom"
+        "primary": "Phones",
+        "secondary": "Electronics"
       },
       "sku": "1117",
       "stock": {
@@ -398,7 +407,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "Sophia Bennett",
@@ -464,13 +472,20 @@
       "description": "The 2-Slice Toaster combines sleek design with exceptional performance, making it a must-have for your kitchen. With adjustable browning controls and wide slots, it accommodates everything from thin slices of bread to thick bagels, ensuring your toast comes out exactly the way you like it.",
       "price": 50,
       "originalPrice": 40,
-      "discount": {
-        "value": 10,
-        "percentage": 20
-      },
+      "colors": [
+        {
+          "name": "White",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "color": "#000000"
+        }
+      ],
+
       "status": "New",
       "category": {
-        "primary": "Living Room",
+        "primary": "Kitchen",
         "secondary": "Home"
       },
       "sku": "1117",
@@ -499,7 +514,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "Ava Williams",
@@ -566,13 +580,20 @@
       "description": "Transform your kitchen with our Stainless Steel French Door Refrigerator, designed to enhance both functionality and style. With its spacious layout and modern features, this refrigerator provides the ultimate storage solution for all your groceries.",
       "price": 400,
       "originalPrice": 500,
-      "discount": {
-        "value": 100,
-        "percentage": 20
-      },
+      "colors": [
+        {
+          "name": "Grey",
+          "color": "#F0F0F0"
+        },
+        {
+          "name": "Black",
+          "color": "#000000"
+        }
+      ],
+
       "status": "New",
       "category": {
-        "primary": "Living Room",
+        "primary": "Livingroom",
         "secondary": "Home"
       },
       "sku": "1117",
@@ -599,7 +620,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "Sophia Turner",
@@ -666,14 +686,25 @@
       "description": "Smartfon Xiaomi Redmi Note 13 Pro, 8/256 GB, 12/512 GB, 6.67, 120 H, AMOLED, 5000 mA/soat",
       "price": 230,
       "originalPrice": 250,
-      "discount": {
-        "value": 20,
-        "percentage": 8
-      },
+      "colors": [
+        {
+          "name": "Siren",
+          "color": "#C8102E"
+        },
+        {
+          "name": "Dark Turquoise",
+          "color": "#007C92"
+        },
+        {
+          "name": "Black",
+          "color": "#000000"
+        }
+      ],
+
       "status": "New",
       "category": {
-        "primary": "Electronics",
-        "secondary": "Phones"
+        "primary": "Phones",
+        "secondary": "Electronics"
       },
       "sku": "1117",
       "stock": {
@@ -709,7 +740,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "Aiden Lee",
@@ -778,18 +808,8 @@
       "originalPrice": 1300,
       "status": "New",
       "category": {
-        "primary": "Living Room",
-        "secondary": "Bedroom"
-      },
-      "sku": "1117",
-      "stock": {
-        "White": 30,
-        "Black": 10,
-        "Titan Grey": 42,
-        "Dark Blue": 40
-      },
-      "measurements": {
-        "size": "6.7/6.5 inches"
+        "primary": "Livingroom",
+        "secondary": "Home"
       },
       "colors": [
         {
@@ -809,12 +829,21 @@
           "color": "#002D72"
         }
       ],
+      "sku": "1117",
+      "stock": {
+        "White": 30,
+        "Black": 10,
+        "Titan Grey": 42,
+        "Dark Blue": 40
+      },
+
       "images": [
         {
           "color": "White",
           "images": [
             "https://i5.walmartimages.com/seo/Straight-Talk-Apple-iPhone-15-Pro-Max-256GB-White-Prepaid-Smartphone_1d086a82-6bb6-4ad8-95ef-4909212c24ff.b7b3da6f23b1dd249e7ba93e3559205c.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
-            "https://minapi.beemarket.uz/prod-media/productImages/thumbnails/medium/a02a9f34-7d6e-4ffa-abb2-570f075c2f87/378ff648-9e33-4289-aa81-01af01660069.webp"
+            "https://i5.walmartimages.com/asr/2f3f88be-e138-4d30-8d0b-1beefb6a2a90.736319aa920bd311ef8ba92c6347aa8a.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/37e4941c-05d9-47d5-b34f-d13033724471.0845de279545d8e3e66ab000afbfcd22.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
           ]
         },
         {
@@ -845,7 +874,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "Aiden Lee",
@@ -912,21 +940,30 @@
       "description": "The microwave oven is an essential appliance for any modern kitchen, offering quick and efficient heating, cooking, or defrosting options. With a spacious interior and multiple preset programs, it makes preparing a variety of dishes easy and convenient. The intuitive electronic control panel and adjustable power levels provide precise cooking control. Its sleek design complements any kitchen decor, while safety features like automatic shut-off and child safety lock ensure reliable and secure operation.",
       "price": 60,
       "originalPrice": 70,
-      "discount": {
-        "value": 10,
-        "percentage": 14.29
-      },
+
+      "colors": [
+        {
+          "name": "White",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "color": "#000000"
+        }
+      ],
       "status": "New",
       "category": {
-        "primary": "Kitchen Appliances",
+        "primary": "Kitchen",
         "secondary": "Home"
       },
       "sku": "1117",
-      "stock": 35,
+      "stock": {
+        "White": 30,
+        "Black": 10
+      },
       "images": [
         {
           "color": "White",
-          "quantity": 11,
           "images": [
             "https://i5.walmartimages.com/seo/Farberware-FMG13SS-1-3-Microwave-Oven-w-LED-Light-SENSOR-1100-Watts-Stainless_d101f906-a5d2-4cd7-8c48-8edaacbcfb16.1ab18ebbc8ba1170c5a14c2ad6b3efc1.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
             "https://i5.walmartimages.com/asr/13896204-4186-42e8-bfc4-96552d02a761.70928097ebb902d6f2f9847f86f4abe8.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
@@ -935,7 +972,6 @@
         },
         {
           "color": "Black",
-          "quantity": 24,
           "images": [
             "https://i5.walmartimages.com/seo/Mainstays-2-2-Cu-ft-Microwave-Ovens-in-Black-Color_40a77273-39c5-424d-b3c2-91589ca59a23.24fd7829773ad65b21c26c3a40f11fca.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
             "https://i5.walmartimages.com/asr/35e5aa99-bcb8-4b18-b6c9-e538cacd75f2.a2f829b395ca38173afc8ded96fd5d10.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
@@ -944,7 +980,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "James O'Connor",
@@ -999,17 +1034,27 @@
       "description": "Xiaomi Redmi 13C smartfoni, 120Hz, 5160MAH, NFC, asosiy kamera 50 mp",
       "price": 110,
       "originalPrice": 160,
-      "discount": {
-        "value": 49,
-        "percentage": 31.25
-      },
+      "colors": [
+        {
+          "name": "Black",
+          "color": "#000000"
+        },
+        {
+          "name": "Green",
+          "color": "#00aa00"
+        }
+      ],
+
       "status": "New",
       "category": {
-        "primary": "Mobile Phones",
+        "primary": "Phones",
         "secondary": "Electronics"
       },
       "sku": "1117",
-      "stock": 52,
+      "stock": {
+        "Black": 10,
+        "Green": 90
+      },
       "images": [
         {
           "color": "Black",
@@ -1029,7 +1074,6 @@
         }
       ],
       "reviews": {
-        "totalReviews": 6,
         "comments": [
           {
             "user": "James O'Connor",
@@ -1074,8 +1118,435 @@
         "updatedAt": "2024-10-01T12:00:00Z"
       },
       "additional_infos": {
-        "warranty": "1 year limited warranty",
-        "energy_efficiency": "Energy Star certified"
+        "warranties": {
+          "warranty": "1 year limited warranty",
+          "water_resistence": "IP68"
+        },
+        "energy_efficiency": {
+          "Energy": "Energy Star certified",
+          "display": "Amoled Bright and Efficient"
+        }
+      }
+    },
+    {
+      "id": "11",
+      "title": "Behost 55 inch TV ",
+      "description": "Behost 55 inch TV Stand for 65 inch TV, TV Cabinet with 20 Colors LED Lights for Living Room, Brown",
+      "price": 100,
+      "originalPrice": 400,
+      "colors": [
+        {
+          "name": "Black",
+          "color": "#000000"
+        },
+        {
+          "name": "Rustin Brown",
+          "color": "#104059"
+        }
+      ],
+
+      "status": "New",
+      "category": {
+        "primary": "Livingroom",
+        "secondary": "Home"
+      },
+      "sku": "1117",
+      "stock": {
+        "Black": 10,
+        "Rustin Brown": 30
+      },
+      "images": [
+        {
+          "color": "Rustin Brown",
+          "images": [
+            "https://i5.walmartimages.com/seo/Behost-55-inch-TV-Stand-for-65-inch-TV-TV-Cabinet-with-20-Colors-LED-Lights-for-Living-Room-Black_3cbccfb2-8d7a-4ce0-941c-80408d266d66.dca7bccf017c2a9b10902068ac3be446.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/a9b74988-4bf2-401a-b3bd-3aad5a2bc95f.79970d5c530e7975346535b2221affe8.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/5e1dee3f-513f-4fe8-bf07-bb3c84e9ffde.69a5b8f0216cdeec8af6b2843946f5a2.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/844d90b3-b9dd-4a35-b290-d93e1b4a6746.d15477c2fd25698bc9e448ddb5b6dfe6.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+          ]
+        },
+        {
+          "color": "Black",
+          "images": [
+            "https://i5.walmartimages.com/asr/bbf13999-968a-4e09-a475-9dbeca4d7f46.85aff4c75d7409f660336e70dd7c8178.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/501631bc-1d1b-43be-8c26-a5a8c22b96b7.16f05edf34444f707e49653c4f414c4b.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/293e8127-5100-4e27-96d4-155000a1890d.015867c6006c83ae6ae3f8bff88584aa.jpeg?odnHeight=717&odnWidth=717&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/eb36a154-787e-497b-8786-d6e35b290dce.d459121cbd02dc0da735eceea7fe8f97.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        }
+      ],
+      "reviews": {
+        "comments": [
+          {
+            "user": "James O'Connor",
+            "profileImg": "https://randomuser.me/api/portraits/men/31.jpg",
+            "comment": "The Redmi 13C offers great performance for the price. Super smooth experience!",
+            "rating": 5
+          },
+          {
+            "user": "Sophia Martinez",
+            "profileImg": "https://randomuser.me/api/portraits/women/32.jpg",
+            "comment": "Loving the large display. It's perfect for watching videos and browsing the web.",
+            "rating": 4
+          },
+          {
+            "user": "Daniel Williams",
+            "profileImg": "https://randomuser.me/api/portraits/men/33.jpg",
+            "comment": "Battery life is amazing! Easily lasts me through a full day of heavy use.",
+            "rating": 5
+          },
+          {
+            "user": "Olivia Johnson",
+            "profileImg": "https://randomuser.me/api/portraits/women/34.jpg",
+            "comment": "The camera quality is decent, but it could be better in low-light conditions.",
+            "rating": 3
+          },
+          {
+            "user": "Lucas Brown",
+            "profileImg": "https://randomuser.me/api/portraits/men/35.jpg",
+            "comment": "Great budget phone with fast performance. Highly recommend for everyday use.",
+            "rating": 4
+          },
+          {
+            "user": "Emma Thompson",
+            "profileImg": "https://randomuser.me/api/portraits/women/36.jpg",
+            "comment": "Very sleek design, and the phone feels light in hand. Really happy with it.",
+            "rating": 5
+          }
+        ]
+      },
+      "timestamps": {
+        "createdAt": "2024-10-01T10:00:00Z",
+        "updatedAt": "2024-10-01T12:00:00Z"
+      },
+      "additional_infos": {
+        "warranties": {
+          "warranty": "1 year limited warranty",
+          "water_resistence": "IP68"
+        },
+        "energy_efficiency": {
+          "Energy": "Energy Star certified",
+          "display": "Amoled Bright and Efficient"
+        }
+      }
+    },
+    {
+      "id": "12",
+      "title": "ZAFLY Queen Size Convertible",
+      "description": "ZAFLY Queen Size Convertible Futon Sofa Bed, Floor Sofa Bed Foldable, Foam Folding Mattress Sleeper, Cloth Fabrics Floor Couch Lounge Sleeper Bed for Living Room/Bedroom, Dark Grey",
+      "price": 268.9,
+      "originalPrice": 499,
+      "colors": [
+        {
+          "name": "Dark Grey",
+          "color": "#A9A9A9"
+        },
+        {
+          "name": "Light Grey",
+          "color": "#D3D3D3"
+        }
+      ],
+
+      "status": "New",
+      "category": {
+        "primary": "Livingroom",
+        "secondary": "Home"
+      },
+      "sku": "1117",
+      "stock": {
+        "Dark Grey": 10,
+        "Light Grey": 30
+      },
+      "images": [
+        {
+          "color": "Dark Grey",
+          "images": [
+            "https://i5.walmartimages.com/seo/ZAFLY-Queen-Size-Convertible-Futon-Sofa-Bed-Floor-Bed-Foldable-Foam-Folding-Mattress-Sleeper-Cloth-Fabrics-Couch-Lounge-Sleeper-Living-Room-Bedroom-D_f75ebc3a-7b50-48bb-be19-d881f4fd7d2d.07919c78e81c4f854250e64ba77833ac.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/9160cd46-9399-4d8c-8c43-e92bc359cb1b.3b378d188e4569a56373a69713cd2192.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/b10c70f1-b189-429e-b4ca-27286daa0926.79aa2b4020d7b58314421ebf9c74cc53.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/dcb3bb8c-59a0-46d3-8d22-b845c6253d7e.29e54d9da554baee7d12832f80dc4e3e.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        },
+        {
+          "color": "Light Grey",
+          "images": [
+            "https://i5.walmartimages.com/asr/44c90adb-9f5e-403e-af22-456dd0a89a09.83209fe7e71ae3a8d5b72d1a279ea8c6.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/222a816c-668b-4576-ad85-35450566cbe6.ff67ed75d08e557752d790b3661ecaa8.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/248c5299-22ff-4775-9fa3-b958f46f6f89.a3604f6164a199a586e9188157a5abcf.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/44c90adb-9f5e-403e-af22-456dd0a89a09.83209fe7e71ae3a8d5b72d1a279ea8c6.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        }
+      ],
+      "reviews": {
+        "comments": [
+          {
+            "user": "James O'Connor",
+            "profileImg": "https://randomuser.me/api/portraits/men/31.jpg",
+            "comment": "The Redmi 13C offers great performance for the price. Super smooth experience!",
+            "rating": 5
+          },
+          {
+            "user": "Sophia Martinez",
+            "profileImg": "https://randomuser.me/api/portraits/women/32.jpg",
+            "comment": "Loving the large display. It's perfect for watching videos and browsing the web.",
+            "rating": 4
+          },
+          {
+            "user": "Daniel Williams",
+            "profileImg": "https://randomuser.me/api/portraits/men/33.jpg",
+            "comment": "Battery life is amazing! Easily lasts me through a full day of heavy use.",
+            "rating": 5
+          },
+          {
+            "user": "Olivia Johnson",
+            "profileImg": "https://randomuser.me/api/portraits/women/34.jpg",
+            "comment": "The camera quality is decent, but it could be better in low-light conditions.",
+            "rating": 3
+          },
+          {
+            "user": "Lucas Brown",
+            "profileImg": "https://randomuser.me/api/portraits/men/35.jpg",
+            "comment": "Great budget phone with fast performance. Highly recommend for everyday use.",
+            "rating": 4
+          },
+          {
+            "user": "Emma Thompson",
+            "profileImg": "https://randomuser.me/api/portraits/women/36.jpg",
+            "comment": "Very sleek design, and the phone feels light in hand. Really happy with it.",
+            "rating": 5
+          }
+        ]
+      },
+      "timestamps": {
+        "createdAt": "2024-10-01T10:00:00Z",
+        "updatedAt": "2024-10-01T12:00:00Z"
+      },
+      "additional_infos": {
+        "warranties": {
+          "warranty": "1 year limited warranty",
+          "water_resistence": "IP68"
+        },
+        "energy_efficiency": {
+          "Energy": "Energy Star certified",
+          "display": "Lighning Bright and Efficient"
+        }
+      }
+    },
+    {
+      "id": "13",
+      "title": "Mainstays 5-Shelf",
+      "description": "Traditional 5-shelf bookcase with 3 adjustable shelves and 2 fixed shelves",
+      "price": 34,
+      "originalPrice": 80,
+      "colors": [
+        {
+          "name": "Black",
+          "color": "#000000"
+        },
+        {
+          "name": "White",
+          "color": "#FFFFFF"
+        }
+      ],
+
+      "status": "New",
+      "category": {
+        "primary": "Livingroom",
+        "secondary": "Home"
+      },
+      "sku": "1117",
+      "stock": {
+        "Black": 10,
+        "White": 30
+      },
+      "images": [
+        {
+          "color": "Black",
+          "images": [
+            "https://i5.walmartimages.com/seo/Mainstays-5-Shelf-Bookcase-with-Adjustable-Shelves-True-Black-Oak_d8b667f9-014c-4b78-a248-cbba1503e4e7.e863e5e725458e12a49667cf745b67f2.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/558d1d71-ad3c-439f-8e0e-f16c4bdd286e.99f031a35641e9348a37e02eb556eb5a.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/368f8e22-32b4-460d-a929-57eaa26b1501.8f748d876a29dc660246ee79995f0663.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/e73d10d6-5deb-482e-8e31-f85cef5f8d7a_1.39dc308bf66ad7b71fecd8c74b908316.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        },
+        {
+          "color": "White",
+          "images": [
+            "https://i5.walmartimages.com/seo/Mainstays-5-Shelf-Bookcase-with-Adjustable-Shelves-White_4fc187dc-9c50-4dd8-a636-3e659ab74799.6f15f74ae9951e69d39329b5e161e35a.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/178a4cb5-c52c-475f-82f5-0818bc2bd249.b148dc6819d0d623f5327dd46be71099.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/5ddbf7d5-dcb0-4e69-9681-3eab43541174.554983cfeb7d7f2fe5337dd3739f4df6.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/6cd7695f-ec12-4b97-9471-4d898aab7771_1.c4aa8a09f269f95a7797359053b53479.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        }
+      ],
+      "reviews": {
+        "comments": [
+          {
+            "user": "James O'Connor",
+            "profileImg": "https://randomuser.me/api/portraits/men/31.jpg",
+            "comment": "The Redmi 13C offers great performance for the price. Super smooth experience!",
+            "rating": 5
+          },
+          {
+            "user": "Sophia Martinez",
+            "profileImg": "https://randomuser.me/api/portraits/women/32.jpg",
+            "comment": "Loving the large display. It's perfect for watching videos and browsing the web.",
+            "rating": 4
+          },
+          {
+            "user": "Daniel Williams",
+            "profileImg": "https://randomuser.me/api/portraits/men/33.jpg",
+            "comment": "Battery life is amazing! Easily lasts me through a full day of heavy use.",
+            "rating": 5
+          },
+          {
+            "user": "Olivia Johnson",
+            "profileImg": "https://randomuser.me/api/portraits/women/34.jpg",
+            "comment": "The camera quality is decent, but it could be better in low-light conditions.",
+            "rating": 3
+          },
+          {
+            "user": "Lucas Brown",
+            "profileImg": "https://randomuser.me/api/portraits/men/35.jpg",
+            "comment": "Great budget phone with fast performance. Highly recommend for everyday use.",
+            "rating": 4
+          },
+          {
+            "user": "Emma Thompson",
+            "profileImg": "https://randomuser.me/api/portraits/women/36.jpg",
+            "comment": "Very sleek design, and the phone feels light in hand. Really happy with it.",
+            "rating": 5
+          }
+        ]
+      },
+      "timestamps": {
+        "createdAt": "2024-10-01T10:00:00Z",
+        "updatedAt": "2024-10-01T12:00:00Z"
+      },
+      "additional_infos": {
+        "warranties": {
+          "warranty": "1 year limited warranty",
+          "water_resistence": "IP68"
+        },
+        "energy_efficiency": {
+          "Energy": "Energy Star certified",
+          "display": "Lighning Bright and Efficient"
+        }
+      }
+    },
+    {
+      "id": "14",
+      "title": "Luxe Weavers",
+      "description": "Transform your living space with the Luxe Weavers Navy Modern Abstract Area Rug. Measuring 5x7 feet, this stylish carpet features a striking geometric design that adds a contemporary touch to any room. Crafted with high-quality fibers, it offers durability and softness underfoot, making it perfect for living rooms, bedrooms, or any high-traffic area. The deep navy color is beautifully contrasted with abstract patterns, enhancing the visual appeal and creating a focal point in your decor. Easy to clean and maintain, this rug is an excellent choice for elevating your home's aesthetic while providing comfort and functionality.",
+      "price": 90,
+      "originalPrice": 90,
+      "colors": [
+        {
+          "name": "Blue",
+          "color": "#0000FF"
+        },
+        {
+          "name": "Grey",
+          "color": "#808080"
+        },
+        {
+          "name": "Navy",
+          "color": "#000080"
+        }
+      ],
+
+      "status": "New",
+      "category": {
+        "primary": "Livingroom",
+        "secondary": "Home"
+      },
+      "sku": "1117",
+      "stock": {
+        "Dark Grey": 10,
+        "Light Grey": 30
+      },
+      "images": [
+        {
+          "color": "Blue",
+          "images": [
+            "https://i5.walmartimages.com/seo/Luxe-Weavers-Blue-Modern-Abstract-Area-Rug-2x3-Geometric-Living-Room-Carpet_4281f055-a60b-4bfd-82a3-acf21f467ede.4b15d77f5e7697c836fe6628b2a71ddf.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/c13a1387-8492-4077-94ae-7cb31dbe308f.c770789a33e9a800495d173a5f84a00b.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/d1b821ea-3d2e-49b6-87ec-f0b68a94bc54.3f08cde5d8d5f8ce4ddf5f0ab420223f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/2b26ae05-768b-48ed-b308-0abda5d4882f.47416a4ac3df83f3295ca59f2dd11d55.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        },
+        {
+          "color": "Grey",
+          "images": [
+            "https://i5.walmartimages.com/asr/c205e238-f065-4bfd-b581-754f11cd3efd.9b0ec7b843988948f5e57cd521d49337.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/b5e818f3-74b2-4ec4-9a52-c424de59b409.2ec6697e2859c926d54005dff9153d57.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/e0e6500f-0fc7-4c0f-bc9b-ac0a286073c2.02d8c424a54dd4da7f6ce6f3a0bad3c6.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/c205e238-f065-4bfd-b581-754f11cd3efd.9b0ec7b843988948f5e57cd521d49337.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        },
+        {
+          "color": "Navy",
+          "images": [
+            "https://i5.walmartimages.com/asr/4d8fb856-969c-4ab3-a6dc-3906da2329c7.0a97a0e8a3d1e3ddf12b7ce28ab11ae7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/ebb25000-576f-4501-93c3-dc929754c42e.bde42d517cfe78abd3aab6f52f7bc53d.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/33d17378-68a7-499c-a7c2-5fb4c6212cff.b0e9e094c9aac0da0896d112fb264ef2.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+            "https://i5.walmartimages.com/asr/4d8fb856-969c-4ab3-a6dc-3906da2329c7.0a97a0e8a3d1e3ddf12b7ce28ab11ae7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          ]
+        }
+      ],
+      "reviews": {
+        "comments": [
+          {
+            "user": "James O'Connor",
+            "profileImg": "https://randomuser.me/api/portraits/men/31.jpg",
+            "comment": "The Redmi 13C offers great performance for the price. Super smooth experience!",
+            "rating": 5
+          },
+          {
+            "user": "Sophia Martinez",
+            "profileImg": "https://randomuser.me/api/portraits/women/32.jpg",
+            "comment": "Loving the large display. It's perfect for watching videos and browsing the web.",
+            "rating": 4
+          },
+          {
+            "user": "Daniel Williams",
+            "profileImg": "https://randomuser.me/api/portraits/men/33.jpg",
+            "comment": "Battery life is amazing! Easily lasts me through a full day of heavy use.",
+            "rating": 5
+          },
+          {
+            "user": "Olivia Johnson",
+            "profileImg": "https://randomuser.me/api/portraits/women/34.jpg",
+            "comment": "The camera quality is decent, but it could be better in low-light conditions.",
+            "rating": 3
+          },
+          {
+            "user": "Lucas Brown",
+            "profileImg": "https://randomuser.me/api/portraits/men/35.jpg",
+            "comment": "Great budget phone with fast performance. Highly recommend for everyday use.",
+            "rating": 4
+          },
+          {
+            "user": "Emma Thompson",
+            "profileImg": "https://randomuser.me/api/portraits/women/36.jpg",
+            "comment": "Very sleek design, and the phone feels light in hand. Really happy with it.",
+            "rating": 5
+          }
+        ]
+      },
+      "timestamps": {
+        "createdAt": "2024-10-01T10:00:00Z",
+        "updatedAt": "2024-10-01T12:00:00Z"
+      },
+      "additional_infos": {
+        "warranties": {
+          "warranty": "1 year limited warranty",
+          "water_resistence": "IP68"
+        },
+        "energy_efficiency": {
+          "Energy": "Energy Star certified",
+          "display": "Lighning Bright and Efficient"
+        }
       }
     }
   ]
