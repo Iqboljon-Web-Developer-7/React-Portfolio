@@ -17,7 +17,7 @@ export const Thumb: FC<propsTypes> = (props) => {
   return (
     <div
       className={"embla-thumbs__slide min-w-[6rem!important] min-h-[6rem!important]".concat(
-        selected ? " embla-thumbs__slide--selected opacity-100" : "opacity-70"
+        selected ? " embla-thumbs__slide--selected opacity-100" : " opacity-70"
       )}
     >
       <button
