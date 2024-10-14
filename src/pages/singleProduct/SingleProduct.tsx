@@ -2,8 +2,6 @@ import { useGetProductQuery } from "@/redux/api/products-api";
 import { FC, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-// import SinglePageCarousel from "@/components/spa/singlePageCarousel/SinglePageCarousel";
-
 import { countStars } from "@/components/feature/product/Product";
 
 import { BsChevronRight } from "react-icons/bs";
@@ -71,7 +69,7 @@ const SingleProduct: FC = () => {
         {">"}&nbsp; {product?.title}
       </p>
       <div className="singleProduct__top grid md:grid-cols-[6fr_7fr] xl:grid-cols-2 gap-4">
-        <div className="singleProduct__top--images border w-[34rem]">
+        <div className="singleProduct__top--images border">
           <EmblaCarousel images={carouselImgs?.images!} />
         </div>
         <div className="singleProduct__top--texts flex-grow self-stretch">
