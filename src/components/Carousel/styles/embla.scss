@@ -40,11 +40,13 @@
 }
 .embla-thumbs__container {
   display: flex;
-  @media (max-width: 767px) {
-    flex-direction: column;
-  }
   flex-direction: row;
   margin-left: calc(var(--thumbs-slide-spacing) * -1);
+}
+@media (max-width: 767px) {
+  .embla-thumbs__container {
+    flex-direction: column;
+  }
 }
 .embla-thumbs__slide {
   flex: 0 0 22%;
