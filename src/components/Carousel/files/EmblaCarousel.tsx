@@ -82,7 +82,7 @@ const EmblaCarousel: FC<PropType> = ({ images, options }) => {
                 // ref={transformWrapperRef}
                 wheel={{ disabled: true }}
                 pinch={{ disabled: true }}
-                pan={{ disabled: true }}
+                // pan={{ disabled: true }}
                 initialScale={1}
                 initialPositionX={0}
                 initialPositionY={0}
