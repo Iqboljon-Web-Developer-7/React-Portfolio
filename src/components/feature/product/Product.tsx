@@ -55,7 +55,13 @@ const ProductCard: FC<Product> = ({ product }) => {
       <div
         className="product__images relative group"
         onMouseMove={handleMouseMove}
-        onMouseLeave={() => setCurrentImage(product?.images[0].images[0])}
+        onTouchEnd={() => {
+          console.log(1);
+        }}
+        onMouseLeave={() => {
+          setCurrentImage(product?.images[0].images[0]),
+            setCurrentImageIndex(0);
+        }}
       >
         <span className="status py-1 px-2 text-sm font-medium tracking-widest absolute inset-[4%_auto_auto_4%] bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-sm">
           {product.status === "New" && "NEW"}

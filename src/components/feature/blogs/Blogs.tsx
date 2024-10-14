@@ -64,19 +64,21 @@ const Blogs = () => {
             ))}
           </CarouselContent>
         ) : (
-          <div className="flex md:grid grid-cols-3 gap-3 w-full">
-            {new Array(3).fill(3).map((_, idx) => (
-              <CarouselItem
-                key={idx}
-                className="animate-pulse p-4 flex-shrink-0 md:w-full h-80 bg-gray-200 rounded-lg"
-              >
-                <div className="h-48 bg-gray-300 mb-4 rounded-md"></div>
-                <div className="h-4 bg-gray-300 rounded-md mb-2"></div>
-                <div className="h-4 bg-gray-300 rounded-md mb-2"></div>
-                <div className="h-4 bg-gray-300 rounded-md"></div>
-              </CarouselItem>
-            ))}
-          </div>
+          <CarouselContent>
+            <div className="flex md:grid grid-cols-3 gap-3 w-full">
+              {new Array(3).fill(3).map((_, idx) => (
+                <CarouselItem
+                  key={idx}
+                  className="animate-pulse p-4 flex-shrink-0 md:w-full h-80 bg-gray-200 rounded-lg"
+                >
+                  <div className="h-48 bg-gray-300 mb-4 rounded-md"></div>
+                  <div className="h-4 bg-gray-300 rounded-md mb-2"></div>
+                  <div className="h-4 bg-gray-300 rounded-md mb-2"></div>
+                  <div className="h-4 bg-gray-300 rounded-md"></div>
+                </CarouselItem>
+              ))}
+            </div>
+          </CarouselContent>
         )}
         <CarouselPrevious className="left-[2%]" />
         <CarouselNext className="right-[2%]" />
