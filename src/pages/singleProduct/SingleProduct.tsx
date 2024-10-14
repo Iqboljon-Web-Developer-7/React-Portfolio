@@ -2,7 +2,7 @@ import { useGetProductQuery } from "@/redux/api/products-api";
 import { FC, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import SinglePageCarousel from "@/components/spa/singlePageCarousel/SinglePageCarousel";
+// import SinglePageCarousel from "@/components/spa/singlePageCarousel/SinglePageCarousel";
 
 import { countStars } from "@/components/feature/product/Product";
 
